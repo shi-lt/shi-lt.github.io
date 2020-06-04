@@ -81,19 +81,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Welcome to my blog</title>
-    <url>/blog/2020/04/14/hello/</url>
-    <content><![CDATA[<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
-<p><img src="hello/image-20200604112458677.png" alt="image-20200604112458677"></p>
-]]></content>
-      <categories>
-        <category>welcome</category>
-      </categories>
-      <tags>
-        <tag>welcome</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>git基本使用</title>
     <url>/blog/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
@@ -174,6 +161,19 @@
       </categories>
       <tags>
         <tag>使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome to my blog</title>
+    <url>/blog/2020/04/14/hello/</url>
+    <content><![CDATA[<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+<p><img src="hello/image-20200604112458677.png" alt="image-20200604112458677"></p>
+]]></content>
+      <categories>
+        <category>welcome</category>
+      </categories>
+      <tags>
+        <tag>welcome</tag>
       </tags>
   </entry>
 </search>
