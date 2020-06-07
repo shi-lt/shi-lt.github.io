@@ -1,184 +1,887 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Markdown基本使用</title>
-      <link href="/Markdown.html"/>
-      <url>/Markdown.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr><p>字体</p><hr><p><em>斜体</em></p><p><em>斜体</em></p><p><strong>粗体</strong></p><p><strong>粗体</strong></p><p><strong><em>粗斜体</em></strong></p><p><strong><em>粗斜体</em></strong></p><hr><p>分隔线</p><hr><p>使用三个以上的的”*“、”-“、”_”</p><hr><p><del>删除线</del></p><hr><p>文字两端加上两个’~~’</p><hr><p><u>下划线</u></p><hr><p>使用”&lt;u&gt;&lt;/u&gt;”</p><hr><p>脚注<a href="我是脚注1。">^1</a></p><hr><p>列表</p><hr><ul><li>*无序列表<ul><li>+无序列表<ul><li>-无序列表</li></ul></li></ul></li></ul><ol><li>有序列表</li><li>有序列表</li></ol><hr><blockquote><p>区块</p><blockquote><p>区块</p><blockquote><p>区快</p></blockquote></blockquote></blockquote><hr><p>代码</p><hr><p><code>ls # 一行简单代码</code></p><pre><code class="c++">int main(){    return 0;}// 代码块</code></pre><hr><p>链接</p><hr><p><a href="https://baidu.com" target="_blank" rel="noopener" title="百度">百度</a></p><hr><p>图片</p><hr><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="epegbgbz.jpeg" alt="测试图片" title="测试图片"></p><hr><p>未完待续。。。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>English Word</title>
+    <url>/English.html</url>
+    <content><![CDATA[<h1 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h1><a id="more"></a>
+
+<hr>
+<table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">单词</th>
+<th align="right">词义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left">point</td>
+<td align="right">点，观点，论点，见解</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">component</td>
+<td align="right">组成部分；成分；部件；成分的；组成的；合成的</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">provider</td>
+<td align="right">供应商，供应者</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">container</td>
+<td align="right">容器</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">seed</td>
+<td align="right">种子</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">resources</td>
+<td align="right">资源；财力；素质</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">relationship</td>
+<td align="right">关系；联系；关联</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">fillable</td>
+<td align="right">可填充</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">criterion</td>
+<td align="right">标准；准则</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">transformer</td>
+<td align="right">变压器</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">CURD</td>
+<td align="right">创更读删</td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">C：create</td>
+<td align="right">创建</td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">U：update</td>
+<td align="right">跟新</td>
+</tr>
+<tr>
+<td align="left">14</td>
+<td align="left">R：retrieve</td>
+<td align="right">读取</td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">D：delete</td>
+<td align="right">删除</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
-          
-          <category> markdown </category>
-          
+        <category>学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 使用 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>miniprogram</title>
-      <link href="/miniprogram.html"/>
-      <url>/miniprogram.html</url>
-      
-        <content type="html"><![CDATA[<hr><h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><a id="more"></a><table><thead><tr><th>结构</th><th>传统web</th><th>微信小程序</th></tr></thead><tbody><tr><td>结构</td><td>HTML</td><td>WXML</td></tr><tr><td>样式</td><td>CSS</td><td>WXSS</td></tr><tr><td>逻辑</td><td>Javascript</td><td>Javascript</td></tr><tr><td>配置</td><td>无</td><td>json</td></tr></tbody></table><h2 id="基本目录"><a href="#基本目录" class="headerlink" title="基本目录"></a>基本目录</h2><pre><code>pages // 入口文件utils // 自己封装的函数工具app.js // 全局jsapp.json // 全局配置app.wxss  // 全局样式project.config.json  // 整个项目的描述文件</code></pre><h2 id="一个程序页面由四个文件组成"><a href="#一个程序页面由四个文件组成" class="headerlink" title="一个程序页面由四个文件组成"></a>一个程序页面由四个文件组成</h2><table><thead><tr><th>文件类型</th><th>必需</th><th>作用</th></tr></thead><tbody><tr><td>js</td><td>是</td><td>页面逻辑</td></tr><tr><td>wxml</td><td>是</td><td>页面结构</td></tr><tr><td>json</td><td>否</td><td>页面配置</td></tr><tr><td>wxss</td><td>否</td><td>页面样式表</td></tr></tbody></table><h2 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h2><ul><li><p>WXML（WeiXin Markup Language）是框架设计的一套标签语言，结合<a href="https://developers.weixin.qq.com/miniprogram/dev/component/index.html" target="_blank" rel="noopener">基础组件</a>、<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件系统</a>，可以构建出页面的结构。</p></li><li><p>数据绑定</p><pre><code class="html">&lt;view&gt; {{message}} &lt;/view&gt;</code></pre></li><li><p>列表渲染</p><pre><code class="html">&lt;view wx:for=&quot;{{array}}&quot;&gt; {{item}} &lt;/view&gt;</code></pre></li><li><p>条件渲染</p><pre><code class="html">&lt;view wx:if=&quot;{{view == 'WEBVIEW'}}&quot;&gt; WEBVIEW &lt;/view&gt;&lt;view wx:elif=&quot;{{view == 'APP'}}&quot;&gt; APP &lt;/view&gt;&lt;view wx:else=&quot;{{view == 'MINA'}}&quot;&gt; MINA &lt;/view&gt;</code></pre></li><li><p>模板</p><ul><li><p>WXML提供模板（template），可以在模板中定义代码片段，然后在不同的地方调用。</p></li><li><p>定义模板，使用 name 属性，作为模板的名字。然后在<code>&lt;template/&gt;</code>内定义代码片段。</p><pre><code class="html">&lt;template name=&quot;msgItem&quot;&gt;  &lt;view&gt;    &lt;text&gt; {{index}}: {{msg}} &lt;/text&gt;    &lt;text&gt; Time: {{time}} &lt;/text&gt;  &lt;/view&gt;&lt;/template&gt;</code></pre></li><li><p>使用模板，模板拥有自己的作用域，只能使用 data 传入的数据以及模板定义文件中定义的 <code>&lt;wxs /&gt;</code> 模块。</p><pre><code class="html">&lt;template is=&quot;msgItem&quot; data=&quot;{{...item}}&quot;/&gt;&lt;--&gt;动态选择模板&lt;/--&gt;&lt;block wx:for=&quot;{{[1, 2, 3, 4, 5]}}&quot;&gt;  &lt;template is=&quot;{{item % 2 == 0 ? 'even' : 'odd'}}&quot;/&gt;&lt;/block&gt;</code></pre></li></ul></li></ul><ul><li><p>引用</p><ul><li><p>WXML 提供两种文件引用方式<code>import</code>和<code>include</code>。</p></li><li><h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><pre><code class="html">&lt;import src=&quot;item.wxml&quot;/&gt; import 只能引入item.wxml文件里边的template</code></pre></li><li><p>include</p><pre><code class="html">&lt;include src=&quot;header.wxml&quot;/&gt;include 可以将目标文件除了 &lt;template/&gt; &lt;wxs/&gt; 外的整个代码引入，相当于是拷贝到 include 位置</code></pre></li></ul></li></ul><h2 id="绑定事件"><a href="#绑定事件" class="headerlink" title="绑定事件"></a>绑定事件</h2><ul><li><p>bind事件</p></li><li><p>cmd触发的事件</p></li><li><p>获取事件源</p></li><li><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="image-20200606141454130.png" alt="图片"></p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="image-20200606142051827.png" alt="图片"></p></li></ul><h2 id="自定义组件"><a href="#自定义组件" class="headerlink" title="自定义组件"></a>自定义组件</h2><ul><li><p>将公共部分抽取出来，定义成一个组件。</p><ul><li><p>定义组件</p><ul><li>properties存放接收的数据</li><li>data存放组件的初始数据</li><li>methods存放方法</li></ul></li><li><p>声明组件</p></li></ul></li><li><p>父向子传数据</p></li><li><p>子向父传数据</p></li></ul><h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul><li><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/framework/</a></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>English</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown基本使用</title>
+    <url>/Markdown.html</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<p>字体</p>
+<hr>
+<p><em>斜体</em></p>
+<p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p><strong>粗体</strong></p>
+<p><strong><em>粗斜体</em></strong></p>
+<p><strong><em>粗斜体</em></strong></p>
+<hr>
+<p>分隔线</p>
+<hr>
+<p>使用三个以上的的”*“、”-“、”_”</p>
+<hr>
+<p><del>删除线</del></p>
+<hr>
+<p>文字两端加上两个’~~’</p>
+<hr>
+<p><u>下划线</u></p>
+<hr>
+<p>使用”&lt;u&gt;&lt;/u&gt;”</p>
+<hr>
+<p>脚注<a href="我是脚注1。">^1</a></p>
+<hr>
+<p>列表</p>
+<hr>
+<ul>
+<li>*无序列表<ul>
+<li>+无序列表<ul>
+<li>-无序列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<hr>
+<blockquote>
+<p>区块</p>
+<blockquote>
+<p>区块</p>
+<blockquote>
+<p>区快</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<p>代码</p>
+<hr>
+<p><code>ls # 一行简单代码</code></p>
+<pre><code class="c++">int main(){
+    return 0;
+}
+// 代码块</code></pre>
+<hr>
+<p>链接</p>
+<hr>
+<p><a href="https://baidu.com" target="_blank" rel="noopener" title="百度">百度</a></p>
+<hr>
+<p>图片</p>
+<hr>
+<p><img src="epegbgbz.jpeg" alt="测试图片" title="测试图片"></p>
+<hr>
+<p>未完待续。。。</p>
+]]></content>
       <categories>
-          
-          <category> 学习 </category>
-          
+        <category>markdown</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> miniprogram </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>English Word</title>
-      <link href="/English.html"/>
-      <url>/English.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h1><a id="more"></a><hr><table><thead><tr><th align="left">序号</th><th align="left">单词</th><th align="right">词义</th></tr></thead><tbody><tr><td align="left">1</td><td align="left">point</td><td align="right">点，观点，论点，见解</td></tr><tr><td align="left">2</td><td align="left">component</td><td align="right">组成部分；成分；部件；成分的；组成的；合成的</td></tr><tr><td align="left">3</td><td align="left">provider</td><td align="right">供应商，供应者</td></tr><tr><td align="left">4</td><td align="left">container</td><td align="right">容器</td></tr><tr><td align="left">5</td><td align="left">seed</td><td align="right">种子</td></tr><tr><td align="left">6</td><td align="left">resources</td><td align="right">资源；财力；素质</td></tr><tr><td align="left">7</td><td align="left">relationship</td><td align="right">关系；联系；关联</td></tr><tr><td align="left">8</td><td align="left">fillable</td><td align="right">可填充</td></tr><tr><td align="left">9</td><td align="left">criterion</td><td align="right">标准；准则</td></tr><tr><td align="left">10</td><td align="left">transformer</td><td align="right">变压器</td></tr><tr><td align="left">11</td><td align="left">CURD</td><td align="right">创更读删</td></tr><tr><td align="left">12</td><td align="left">C：create</td><td align="right">创建</td></tr><tr><td align="left">13</td><td align="left">U：update</td><td align="right">跟新</td></tr><tr><td align="left">14</td><td align="left">R：retrieve</td><td align="right">读取</td></tr><tr><td align="left">15</td><td align="left">D：delete</td><td align="right">删除</td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr><tr><td align="left"></td><td align="left"></td><td align="right"></td></tr></tbody></table>]]></content>
-      
-      
+      <tags>
+        <tag>使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ecshop</title>
+    <url>/ecshop.html</url>
+    <content><![CDATA[<hr>
+<h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
+
+<ul>
+<li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p>
+<ul>
+<li>routes.php路由设置</li>
+<li>bootstrap.php</li>
+<li>Controllers<ul>
+<li>HomeController.php</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p>
+<ul>
+<li>会员模块<ul>
+<li>resources<ul>
+<li>assets</li>
+<li>views</li>
+</ul>
+</li>
+<li>src<ul>
+<li>Http</li>
+<li>Models</li>
+<li>Providers</li>
+<li>Respository</li>
+<li>Seeds</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>商城模块</li>
+<li>分销模块</li>
+</ul>
+</li>
+<li><p>component：存放部分模型、仓库（Respository）</p>
+</li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> 学习 </category>
-          
+        <category>札记</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> English </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ecshop</title>
-      <link href="/ecshop.html"/>
-      <url>/ecshop.html</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a><ul><li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p><ul><li>routes.php路由设置</li><li>bootstrap.php</li><li>Controllers<ul><li>HomeController.php</li></ul></li></ul></li><li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p><ul><li>会员模块<ul><li>resources<ul><li>assets</li><li>views</li></ul></li><li>src<ul><li>Http</li><li>Models</li><li>Providers</li><li>Respository</li><li>Seeds</li></ul></li></ul></li><li>商城模块</li><li>分销模块</li></ul></li><li><p>component：存放部分模型、仓库（Respository）</p></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>ecshop</tag>
+        <tag>laravel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome to my blog</title>
+    <url>/hello.html</url>
+    <content><![CDATA[<a id="more"></a>
+<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+]]></content>
       <categories>
-          
-          <category> 札记 </category>
-          
+        <category>welcome</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> ecshop </tag>
-            
-            <tag> laravel </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>php</title>
-      <link href="/php.html"/>
-      <url>/php.html</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a><ul><li><pre><code class="php">function __construct(){...}</code></pre></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>welcome</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git基本使用</title>
+    <url>/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</url>
+    <content><![CDATA[<hr>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><a id="more"></a>
+
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
+<li><p>git clone</p>
+<p>将github上的仓库克隆到本地磁盘并创建本地仓库</p>
+</li>
+<li><p>git pull</p>
+<p>将远程远程仓库拉取到本地仓库</p>
+</li>
+</ul>
+<h2 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h2><ul>
+<li><p>git add</p>
+<p>将本地文件添加到缓存区</p>
+</li>
+<li><p>git commit -m</p>
+<p>将缓存区内容提交到本地仓库（默认master分支）</p>
+<pre><code class="bash">$ git commit -m &quot;test001&quot;
+[master (root-commit) 6848e60] test001
+ 1 file changed, 1 insertion(+)
+ create mode 100644 t.txt</code></pre>
+</li>
+<li><p>git push -u origin</p>
+<p>将本地仓库内容推送到远程仓库（origin当前git服务器地址）</p>
+<pre><code class="bash">$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shi-lt/test.git
+ * [new branch]      master -&gt; master
+Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.</code></pre>
+</li>
+</ul>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul>
+<li><p>git config –global user.name</p>
+<p>设置全局用户名</p>
+</li>
+<li><p>git config –global user.email</p>
+<p>设置全局邮箱</p>
+</li>
+</ul>
+<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><ul>
+<li><p>git init</p>
+<p>初始化当前目录为一个本地仓库</p>
+<pre><code class="bash">$ git init
+Initialized empty Git repository in E:/git/test/.git/</code></pre>
+</li>
+<li><p>git remote add origin url</p>
+<p>将创建的本地仓库与远程仓库进行关联</p>
+<pre><code class="bash">$ git remote add origin https://github.com/shi-lt/test.git</code></pre>
+</li>
+<li><p>git branch</p>
+<p>创建分支</p>
+<pre><code class="bash">$ git branch test</code></pre>
+</li>
+</ul>
+<h2 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h2><ul>
+<li><p>git log</p>
+<p>查看提交记录</p>
+</li>
+<li><p>git branch</p>
+<p>查看分支（此命令还可进行分支创建、重命名、删除）</p>
+</li>
+</ul>
+<h2 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h2><ul>
+<li><p>git checkout</p>
+<pre><code class="bash">$ git checkout test
+Switched to branch &#39;test&#39;</code></pre>
+</li>
+<li><p>git mv</p>
+<p>移动文件</p>
+</li>
+<li><p>git rm</p>
+<p>删除文件</p>
+</li>
+<li><p>git merge</p>
+<p>合并分支</p>
+<p>未完待续。。。</p>
+</li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> 学习 </category>
-          
+        <category>git</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> php </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>git基本使用</title>
-      <link href="/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
-      <url>/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</url>
-      
-        <content type="html"><![CDATA[<hr><h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><a id="more"></a><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><p>git clone</p><p>将github上的仓库克隆到本地磁盘并创建本地仓库</p></li><li><p>git pull</p><p>将远程远程仓库拉取到本地仓库</p></li></ul><h2 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h2><ul><li><p>git add</p><p>将本地文件添加到缓存区</p></li><li><p>git commit -m</p><p>将缓存区内容提交到本地仓库（默认master分支）</p><pre><code class="bash">$ git commit -m &quot;test001&quot;[master (root-commit) 6848e60] test001 1 file changed, 1 insertion(+) create mode 100644 t.txt</code></pre></li><li><p>git push -u origin</p><p>将本地仓库内容推送到远程仓库（origin当前git服务器地址）</p><pre><code class="bash">$ git push -u origin masterEnumerating objects: 3, done.Counting objects: 100% (3/3), done.Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, done.Total 3 (delta 0), reused 0 (delta 0)To https://github.com/shi-lt/test.git * [new branch]      master -&gt; masterBranch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.</code></pre></li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul><li><p>git config –global user.name</p><p>设置全局用户名</p></li><li><p>git config –global user.email</p><p>设置全局邮箱</p></li></ul><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><ul><li><p>git init</p><p>初始化当前目录为一个本地仓库</p><pre><code class="bash">$ git initInitialized empty Git repository in E:/git/test/.git/</code></pre></li><li><p>git remote add origin url</p><p>将创建的本地仓库与远程仓库进行关联</p><pre><code class="bash">$ git remote add origin https://github.com/shi-lt/test.git</code></pre></li><li><p>git branch</p><p>创建分支</p><pre><code class="bash">$ git branch test</code></pre></li></ul><h2 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h2><ul><li><p>git log</p><p>查看提交记录</p></li><li><p>git branch</p><p>查看分支（此命令还可进行分支创建、重命名、删除）</p></li></ul><h2 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h2><ul><li><p>git checkout</p><pre><code class="bash">$ git checkout testSwitched to branch &#39;test&#39;</code></pre></li><li><p>git mv</p><p>移动文件</p></li><li><p>git rm</p><p>删除文件</p></li><li><p>git merge</p><p>合并分支</p><p>未完待续。。。</p></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>miniprogram</title>
+    <url>/miniprogram.html</url>
+    <content><![CDATA[<hr>
+<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><a id="more"></a>
+
+<table>
+<thead>
+<tr>
+<th>结构</th>
+<th>传统web</th>
+<th>微信小程序</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>结构</td>
+<td>HTML</td>
+<td>WXML</td>
+</tr>
+<tr>
+<td>样式</td>
+<td>CSS</td>
+<td>WXSS</td>
+</tr>
+<tr>
+<td>逻辑</td>
+<td>Javascript</td>
+<td>Javascript</td>
+</tr>
+<tr>
+<td>配置</td>
+<td>无</td>
+<td>json</td>
+</tr>
+</tbody></table>
+<h2 id="基本目录"><a href="#基本目录" class="headerlink" title="基本目录"></a>基本目录</h2><pre><code>pages // 入口文件
+utils // 自己封装的函数工具
+app.js // 全局js
+app.json // 全局配置
+app.wxss  // 全局样式
+project.config.json  // 整个项目的描述文件</code></pre><h2 id="一个程序页面由四个文件组成"><a href="#一个程序页面由四个文件组成" class="headerlink" title="一个程序页面由四个文件组成"></a>一个程序页面由四个文件组成</h2><table>
+<thead>
+<tr>
+<th>文件类型</th>
+<th>必需</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>js</td>
+<td>是</td>
+<td>页面逻辑</td>
+</tr>
+<tr>
+<td>wxml</td>
+<td>是</td>
+<td>页面结构</td>
+</tr>
+<tr>
+<td>json</td>
+<td>否</td>
+<td>页面配置</td>
+</tr>
+<tr>
+<td>wxss</td>
+<td>否</td>
+<td>页面样式表</td>
+</tr>
+</tbody></table>
+<h2 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h2><ul>
+<li><p>WXML（WeiXin Markup Language）是框架设计的一套标签语言，结合<a href="https://developers.weixin.qq.com/miniprogram/dev/component/index.html" target="_blank" rel="noopener">基础组件</a>、<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件系统</a>，可以构建出页面的结构。</p>
+</li>
+<li><p>数据绑定</p>
+<pre><code class="html">&lt;view&gt; {{message}} &lt;/view&gt;</code></pre>
+</li>
+<li><p>列表渲染</p>
+<pre><code class="html">&lt;view wx:for=&quot;{{array}}&quot;&gt; {{item}} &lt;/view&gt;</code></pre>
+</li>
+<li><p>条件渲染</p>
+<pre><code class="html">&lt;view wx:if=&quot;{{view == 'WEBVIEW'}}&quot;&gt; WEBVIEW &lt;/view&gt;
+&lt;view wx:elif=&quot;{{view == 'APP'}}&quot;&gt; APP &lt;/view&gt;
+&lt;view wx:else=&quot;{{view == 'MINA'}}&quot;&gt; MINA &lt;/view&gt;</code></pre>
+</li>
+<li><p>模板</p>
+<ul>
+<li><p>WXML提供模板（template），可以在模板中定义代码片段，然后在不同的地方调用。</p>
+</li>
+<li><p>定义模板，使用 name 属性，作为模板的名字。然后在<code>&lt;template/&gt;</code>内定义代码片段。</p>
+<pre><code class="html">&lt;template name=&quot;msgItem&quot;&gt;
+  &lt;view&gt;
+    &lt;text&gt; {{index}}: {{msg}} &lt;/text&gt;
+    &lt;text&gt; Time: {{time}} &lt;/text&gt;
+  &lt;/view&gt;
+&lt;/template&gt;</code></pre>
+</li>
+<li><p>使用模板，模板拥有自己的作用域，只能使用 data 传入的数据以及模板定义文件中定义的 <code>&lt;wxs /&gt;</code> 模块。</p>
+<pre><code class="html">&lt;template is=&quot;msgItem&quot; data=&quot;{{...item}}&quot;/&gt;
+&lt;--&gt;动态选择模板&lt;/--&gt;
+&lt;block wx:for=&quot;{{[1, 2, 3, 4, 5]}}&quot;&gt;
+  &lt;template is=&quot;{{item % 2 == 0 ? 'even' : 'odd'}}&quot;/&gt;
+&lt;/block&gt;</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>引用</p>
+<ul>
+<li><p>WXML 提供两种文件引用方式<code>import</code>和<code>include</code>。</p>
+</li>
+<li><h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><pre><code class="html">&lt;import src=&quot;item.wxml&quot;/&gt; 
+import 只能引入item.wxml文件里边的template</code></pre>
+</li>
+<li><p>include</p>
+<pre><code class="html">&lt;include src=&quot;header.wxml&quot;/&gt;
+include 可以将目标文件除了 &lt;template/&gt; &lt;wxs/&gt; 外的整个代码引入，相当于是拷贝到 include 位置</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绑定事件"><a href="#绑定事件" class="headerlink" title="绑定事件"></a>绑定事件</h2><ul>
+<li><p>bind事件</p>
+</li>
+<li><p>cmd触发的事件</p>
+</li>
+<li><p>获取事件源</p>
+</li>
+<li><p><img src="image-20200606141454130.png" alt="图片"></p>
+<p><img src="image-20200606142051827.png" alt="图片"></p>
+</li>
+</ul>
+<h2 id="自定义组件"><a href="#自定义组件" class="headerlink" title="自定义组件"></a>自定义组件</h2><ul>
+<li><p>将公共部分抽取出来，定义成一个组件。</p>
+<ul>
+<li><p>定义组件</p>
+<ul>
+<li>properties存放接收的数据</li>
+<li>data存放组件的初始数据</li>
+<li>methods存放方法</li>
+</ul>
+</li>
+<li><p>声明组件</p>
+</li>
+</ul>
+</li>
+<li><p>父向子传数据</p>
+</li>
+<li><p>子向父传数据</p>
+</li>
+</ul>
+<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
+<li><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/framework/</a></li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> git </category>
-          
+        <category>学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 使用 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Welcome to my blog</title>
-      <link href="/hello.html"/>
-      <url>/hello.html</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="hello.png" alt=""></p>]]></content>
-      
-      
+      <tags>
+        <tag>miniprogram</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>php</title>
+    <url>/php.html</url>
+    <content><![CDATA[<hr>
+<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
+
+<ul>
+<li><pre><code class="php">function __construct(){
+...
+}</code></pre>
+</li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> welcome </category>
-          
+        <category>学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> welcome </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>php</tag>
+      </tags>
+  </entry>
 </search>
