@@ -469,6 +469,57 @@
       </tags>
   </entry>
   <entry>
+    <title>ecshop</title>
+    <url>/2020/06/04/ecshop/</url>
+    <content><![CDATA[<hr>
+<h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
+
+<ul>
+<li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p>
+<ul>
+<li>routes.php路由设置</li>
+<li>bootstrap.php</li>
+<li>Controllers<ul>
+<li>HomeController.php</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p>
+<ul>
+<li>会员模块<ul>
+<li>resources<ul>
+<li>assets</li>
+<li>views</li>
+</ul>
+</li>
+<li>src<ul>
+<li>Http</li>
+<li>Models</li>
+<li>Providers</li>
+<li>Respository</li>
+<li>Seeds</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>商城模块</li>
+<li>分销模块</li>
+</ul>
+</li>
+<li><p>component：存放部分模型、仓库（Respository）</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>札记</category>
+      </categories>
+      <tags>
+        <tag>ecshop</tag>
+        <tag>laravel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown基本使用</title>
     <url>/2020/06/14/Markdown/</url>
     <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a>
@@ -545,57 +596,6 @@
       </categories>
       <tags>
         <tag>使用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ecshop</title>
-    <url>/2020/06/04/ecshop/</url>
-    <content><![CDATA[<hr>
-<h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
-
-<ul>
-<li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p>
-<ul>
-<li>routes.php路由设置</li>
-<li>bootstrap.php</li>
-<li>Controllers<ul>
-<li>HomeController.php</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p>
-<ul>
-<li>会员模块<ul>
-<li>resources<ul>
-<li>assets</li>
-<li>views</li>
-</ul>
-</li>
-<li>src<ul>
-<li>Http</li>
-<li>Models</li>
-<li>Providers</li>
-<li>Respository</li>
-<li>Seeds</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>商城模块</li>
-<li>分销模块</li>
-</ul>
-</li>
-<li><p>component：存放部分模型、仓库（Respository）</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>札记</category>
-      </categories>
-      <tags>
-        <tag>ecshop</tag>
-        <tag>laravel</tag>
       </tags>
   </entry>
   <entry>
