@@ -599,6 +599,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Welcome to my blog</title>
+    <url>/2020/04/14/hello/</url>
+    <content><![CDATA[<a id="more"></a>
+<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>welcome</category>
+      </categories>
+      <tags>
+        <tag>welcome</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git基本使用</title>
     <url>/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<hr>
@@ -682,93 +695,6 @@
       </categories>
       <tags>
         <tag>使用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Welcome to my blog</title>
-    <url>/2020/04/14/hello/</url>
-    <content><![CDATA[<a id="more"></a>
-<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>welcome</category>
-      </categories>
-      <tags>
-        <tag>welcome</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>laravel框架</title>
-    <url>/2020/06/04/laravel/</url>
-    <content><![CDATA[<hr>
-<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><a id="more"></a>
-
-
-<ul>
-<li>通过composer创建</li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">composer create-project --prefer-dist laravel/laravel blog 5.4.*</span><br></pre></td></tr></table></figure>
-
-<h2 id="php-artisan-命令"><a href="#php-artisan-命令" class="headerlink" title="php artisan 命令"></a>php artisan 命令</h2><ul>
-<li><pre><code>php artisan route:list # 查看路由
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
-php artisan make:controller 路径/控制名 # 生成控制器文件
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-php artisan make:其他操作
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  路由</span><br><span class="line"></span><br><span class="line">- 在routes目录中的web.php设置</span><br><span class="line"></span><br><span class="line">- 路由定义方式</span><br><span class="line"></span><br><span class="line">  - Route::请求方式(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  - 常用请求方式：</span><br><span class="line">    - get(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - post(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - any(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - match([&quot;请求类型&quot;，...],&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  </span><br><span class="line">- 路由参数(不推荐，可通过url?param传参数)</span><br><span class="line"></span><br><span class="line">  - 必选参数&#123;param&#125;</span><br><span class="line">  - 非必选参数&#123;param?&#125;</span><br><span class="line"></span><br><span class="line">- 路由别名</span><br><span class="line"></span><br><span class="line">  - Route::get( , )-&gt;name(&quot;别名&quot;);</span><br><span class="line"></span><br><span class="line">  - 可通过获取route(&quot;别名&quot;)</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
-  php artisan route:list # 查看应用路由
-  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 路由群组</span><br><span class="line"></span><br><span class="line">  - Route::group(公共属性数组[前缀、命名空间、中间件等],回调函数)</span><br><span class="line"></span><br><span class="line">- 控制器路由</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
-  Route::请求方法(路由表达式，“控制器名@方法”)
-  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  控制器接收用户输入</span><br><span class="line"></span><br><span class="line">- 使用门面input</span><br><span class="line"></span><br><span class="line">  - input::get()</span><br><span class="line"></span><br><span class="line">  - input::all()</span><br><span class="line"></span><br><span class="line">  - input::only()</span><br><span class="line"></span><br><span class="line">  - input::except()</span><br><span class="line"></span><br><span class="line">  - input::has</span><br><span class="line"></span><br><span class="line">    以上均可以获取get、post方法的信息</span><br><span class="line"></span><br><span class="line">- 可在config&#x2F;app.php的aliases数组中定义长串字符的别名</span><br><span class="line"></span><br><span class="line">  - 如命名空间</span><br><span class="line"></span><br><span class="line">## dd（）：dump+die 用于调试输出</span><br><span class="line"></span><br><span class="line">## &quot;&#x2F;&quot; 与 &quot;.&quot; 在某种情况下等效,例如查找视图文件view(&quot;home.index&quot;) &#x3D;&#x3D; view(&quot;home&#x2F;index&quot;)</span><br><span class="line"></span><br><span class="line">## 视图文件的命名于渲染</span><br><span class="line"></span><br><span class="line">- 文件名习惯小写</span><br><span class="line">- 文件名单后缀是.blade.php,可以直接使用标签语法&#123;&#123;$title&#125;&#125;（.php不可使用，.balde.php优先级高于.php）,也可使用php原生语法</span><br><span class="line"></span><br><span class="line">## campact()函数打包数组，php内置函数</span><br><span class="line"></span><br><span class="line">## 模板中直接使用函数</span><br><span class="line"></span><br><span class="line">- &#123;&#123;函数名(参数1，参数2...)&#125;&#125;,php内置函数或laravel框架的函数</span><br><span class="line"></span><br><span class="line">## 循环与选择</span><br><span class="line"></span><br><span class="line">- 循环</span><br></pre></td></tr></table></figure>
-@foreach($data $k =&gt; $v)
-@endforeach
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 选择</span><br></pre></td></tr></table></figure>
-@if()
-@elseif()
-@endif
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 模板继承和模板包含</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
-父:@yield()
-子：@extends(&apos;模板名&apos;)
-@section() 绑定区块
-@endsection()
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 模板引入外部静态文件</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
-父:@yield()
-子：@extends(&apos;模板名&apos;)
-@section() 绑定区块
-@endsection()
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line">- 使用laravel封装的asset函数</span><br><span class="line"></span><br><span class="line">## CSRF攻击</span><br><span class="line"></span><br><span class="line">- 跨站请求伪造</span><br><span class="line"></span><br><span class="line">- 全局函数csrf_token()获取Token值</span><br><span class="line"></span><br><span class="line">- html中加入代码</span><br><span class="line"></span><br><span class="line">  &#96;&#96;&#96;php+HTML</span><br><span class="line">  &lt;input type &#x3D; &quot;hidden&quot; name &#x3D; &quot;_token&quot; value &#x3D; &quot;&lt;?php echo csrf_token(); ?&gt;&quot;</span><br><span class="line">  &#x2F;&#x2F; 等价于</span><br><span class="line">  &#123;&#123;csrf_field()&#125;&#125;</span><br><span class="line">  &#x2F;&#x2F; ajax提交使用csrf_token()</span><br></pre></td></tr></table></figure></code></pre></li>
-<li><p>laravel 默认开启csrf验证</p>
-</li>
-<li><p>排除某些路由进行csrf验证</p>
-<p>在app/Http/Middleware/VerifyCsrfToken.php中修改</p>
-</li>
-</ul>
-<h2 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h2><p><img src="image-20200605002302627.png" alt="模型"></p>
-<h2 id="seed（简而言之，将测试数据保存到数据库）"><a href="#seed（简而言之，将测试数据保存到数据库）" class="headerlink" title="seed（简而言之，将测试数据保存到数据库）"></a>seed（简而言之，将测试数据保存到数据库）</h2><ul>
-<li>在laravel的中文文档是这样写的：Laravel 包含一个填充类可以为你的数据库填充测试数据。所有的填充类都放在 database/seeds 目录下。你可以随意为填充类命名， 但是更建议您遵守类似 UsersTableSeeder 的命名规范。通常， Laravel 默认定义了一个 DatabaseSeeder 类。<pre><code>所以，seed的作用主要是用来填充数据库中的数据。在实际开发过程中，我们通常需要加入一些测试数据，或者保存数据库中的初始数据，防止在开发过程中遇到的数据丢失，加的话还是挺麻烦的。当然，也可以直接导出数据库的表结构和表数据。</code></pre></li>
-<li>测试数据较多是可用模型工厂</li>
-</ul>
-<h2 id="provider"><a href="#provider" class="headerlink" title="provider"></a>provider</h2><ul>
-<li>provider是laravel程序的核心所在，包括你自己的应用程序，以及所有的 Laravel 核心服务，都是通过服务提供者启动的。一般而言，我们指的是 <strong>注册</strong> 事物，包括注册服务容器绑定、事件侦听器、中间件，甚至路由。服务提供者是设置你的应用程序的中心所在。</li>
-</ul>
-<p>##　repository</p>
-<ul>
-<li>repository是数据库抽象层，目的是将应用的数据库操作和核心的业务逻辑分开，保证controller的精致。</li>
-<li>repository提供criteria（标准）和transformer（变压器）来解卦数据库的查询和查询结果的展示，使得各部分分离开来，解开耦合。同时repository接管model层，使得model层专注于数据模型本身的定义，例如：relationship，fillable（可填充）等<ul>
-<li>ceiteria<ul>
-<li>所有的Criteria都要实现Criteria接口中的apply方法。</li>
-</ul>
-</li>
-<li>transformer</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>laravel</tag>
       </tags>
   </entry>
   <entry>
@@ -918,6 +844,80 @@ php artisan make:其他操作
       </categories>
       <tags>
         <tag>miniprogram</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>laravel框架</title>
+    <url>/2020/06/04/laravel/</url>
+    <content><![CDATA[<hr>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><a id="more"></a>
+
+
+<ul>
+<li>通过composer创建</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">composer create-project --prefer-dist laravel/laravel blog 5.4.*</span><br></pre></td></tr></table></figure>
+
+<h2 id="php-artisan-命令"><a href="#php-artisan-命令" class="headerlink" title="php artisan 命令"></a>php artisan 命令</h2><ul>
+<li><pre><code>php artisan route:list # 查看路由
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
+php artisan make:controller 路径/控制名 # 生成控制器文件
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+php artisan make:其他操作
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  路由</span><br><span class="line"></span><br><span class="line">- 在routes目录中的web.php设置</span><br><span class="line"></span><br><span class="line">- 路由定义方式</span><br><span class="line"></span><br><span class="line">  - Route::请求方式(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  - 常用请求方式：</span><br><span class="line">    - get(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - post(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - any(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - match([&quot;请求类型&quot;，...],&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  </span><br><span class="line">- 路由参数(不推荐，可通过url?param传参数)</span><br><span class="line"></span><br><span class="line">  - 必选参数&#123;param&#125;</span><br><span class="line">  - 非必选参数&#123;param?&#125;</span><br><span class="line"></span><br><span class="line">- 路由别名</span><br><span class="line"></span><br><span class="line">  - Route::get( , )-&gt;name(&quot;别名&quot;);</span><br><span class="line"></span><br><span class="line">  - 可通过获取route(&quot;别名&quot;)</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
+  php artisan route:list # 查看应用路由
+  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 路由群组</span><br><span class="line"></span><br><span class="line">  - Route::group(公共属性数组[前缀、命名空间、中间件等],回调函数)</span><br><span class="line"></span><br><span class="line">- 控制器路由</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
+  Route::请求方法(路由表达式，“控制器名@方法”)
+  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  控制器接收用户输入</span><br><span class="line"></span><br><span class="line">- 使用门面input</span><br><span class="line"></span><br><span class="line">  - input::get()</span><br><span class="line"></span><br><span class="line">  - input::all()</span><br><span class="line"></span><br><span class="line">  - input::only()</span><br><span class="line"></span><br><span class="line">  - input::except()</span><br><span class="line"></span><br><span class="line">  - input::has</span><br><span class="line"></span><br><span class="line">    以上均可以获取get、post方法的信息</span><br><span class="line"></span><br><span class="line">- 可在config&#x2F;app.php的aliases数组中定义长串字符的别名</span><br><span class="line"></span><br><span class="line">  - 如命名空间</span><br><span class="line"></span><br><span class="line">## dd（）：dump+die 用于调试输出</span><br><span class="line"></span><br><span class="line">## &quot;&#x2F;&quot; 与 &quot;.&quot; 在某种情况下等效,例如查找视图文件view(&quot;home.index&quot;) &#x3D;&#x3D; view(&quot;home&#x2F;index&quot;)</span><br><span class="line"></span><br><span class="line">## 视图文件的命名于渲染</span><br><span class="line"></span><br><span class="line">- 文件名习惯小写</span><br><span class="line">- 文件名单后缀是.blade.php,可以直接使用标签语法&#123;&#123;$title&#125;&#125;（.php不可使用，.balde.php优先级高于.php）,也可使用php原生语法</span><br><span class="line"></span><br><span class="line">## campact()函数打包数组，php内置函数</span><br><span class="line"></span><br><span class="line">## 模板中直接使用函数</span><br><span class="line"></span><br><span class="line">- &#123;&#123;函数名(参数1，参数2...)&#125;&#125;,php内置函数或laravel框架的函数</span><br><span class="line"></span><br><span class="line">## 循环与选择</span><br><span class="line"></span><br><span class="line">- 循环</span><br></pre></td></tr></table></figure>
+@foreach($data $k =&gt; $v)
+@endforeach
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 选择</span><br></pre></td></tr></table></figure>
+@if()
+@elseif()
+@endif
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 模板继承和模板包含</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
+父:@yield()
+子：@extends(&apos;模板名&apos;)
+@section() 绑定区块
+@endsection()
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 模板引入外部静态文件</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
+父:@yield()
+子：@extends(&apos;模板名&apos;)
+@section() 绑定区块
+@endsection()
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line">- 使用laravel封装的asset函数</span><br><span class="line"></span><br><span class="line">## CSRF攻击</span><br><span class="line"></span><br><span class="line">- 跨站请求伪造</span><br><span class="line"></span><br><span class="line">- 全局函数csrf_token()获取Token值</span><br><span class="line"></span><br><span class="line">- html中加入代码</span><br><span class="line"></span><br><span class="line">  &#96;&#96;&#96;php+HTML</span><br><span class="line">  &lt;input type &#x3D; &quot;hidden&quot; name &#x3D; &quot;_token&quot; value &#x3D; &quot;&lt;?php echo csrf_token(); ?&gt;&quot;</span><br><span class="line">  &#x2F;&#x2F; 等价于</span><br><span class="line">  &#123;&#123;csrf_field()&#125;&#125;</span><br><span class="line">  &#x2F;&#x2F; ajax提交使用csrf_token()</span><br></pre></td></tr></table></figure></code></pre></li>
+<li><p>laravel 默认开启csrf验证</p>
+</li>
+<li><p>排除某些路由进行csrf验证</p>
+<p>在app/Http/Middleware/VerifyCsrfToken.php中修改</p>
+</li>
+</ul>
+<h2 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h2><p><img src="image-20200605002302627.png" alt="模型"></p>
+<h2 id="seed（简而言之，将测试数据保存到数据库）"><a href="#seed（简而言之，将测试数据保存到数据库）" class="headerlink" title="seed（简而言之，将测试数据保存到数据库）"></a>seed（简而言之，将测试数据保存到数据库）</h2><ul>
+<li>在laravel的中文文档是这样写的：Laravel 包含一个填充类可以为你的数据库填充测试数据。所有的填充类都放在 database/seeds 目录下。你可以随意为填充类命名， 但是更建议您遵守类似 UsersTableSeeder 的命名规范。通常， Laravel 默认定义了一个 DatabaseSeeder 类。<pre><code>所以，seed的作用主要是用来填充数据库中的数据。在实际开发过程中，我们通常需要加入一些测试数据，或者保存数据库中的初始数据，防止在开发过程中遇到的数据丢失，加的话还是挺麻烦的。当然，也可以直接导出数据库的表结构和表数据。</code></pre></li>
+<li>测试数据较多是可用模型工厂</li>
+</ul>
+<h2 id="provider"><a href="#provider" class="headerlink" title="provider"></a>provider</h2><ul>
+<li>provider是laravel程序的核心所在，包括你自己的应用程序，以及所有的 Laravel 核心服务，都是通过服务提供者启动的。一般而言，我们指的是 <strong>注册</strong> 事物，包括注册服务容器绑定、事件侦听器、中间件，甚至路由。服务提供者是设置你的应用程序的中心所在。</li>
+</ul>
+<p>##　repository</p>
+<ul>
+<li>repository是数据库抽象层，目的是将应用的数据库操作和核心的业务逻辑分开，保证controller的精致。</li>
+<li>repository提供criteria（标准）和transformer（变压器）来解卦数据库的查询和查询结果的展示，使得各部分分离开来，解开耦合。同时repository接管model层，使得model层专注于数据模型本身的定义，例如：relationship，fillable（可填充）等<ul>
+<li>ceiteria<ul>
+<li>所有的Criteria都要实现Criteria接口中的apply方法。</li>
+</ul>
+</li>
+<li>transformer</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>laravel</tag>
       </tags>
   </entry>
   <entry>
