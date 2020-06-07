@@ -525,10 +525,10 @@
 <p>代码</p>
 <hr>
 <p><code>ls # 一行简单代码</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 代码块</span></span><br></pre></td></tr></table></figure>
-
-
-
+<pre><code class="c++">int main(){
+    return 0;
+}
+// 代码块</code></pre>
 <hr>
 <p>链接</p>
 <hr>
@@ -599,19 +599,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Welcome to my blog</title>
-    <url>/2020/04/14/hello/</url>
-    <content><![CDATA[<a id="more"></a>
-<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>welcome</category>
-      </categories>
-      <tags>
-        <tag>welcome</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>git基本使用</title>
     <url>/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<hr>
@@ -631,14 +618,21 @@
 </li>
 <li><p>git commit -m</p>
 <p>将缓存区内容提交到本地仓库（默认master分支）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git commit -m <span class="string">"test001"</span></span><br><span class="line">[master (root-commit) 6848e60] test001</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br><span class="line"> create mode 100644 t.txt</span><br></pre></td></tr></table></figure>
+<pre><code class="bash">$ git commit -m &quot;test001&quot;
+[master (root-commit) 6848e60] test001
+ 1 file changed, 1 insertion(+)
+ create mode 100644 t.txt</code></pre>
 </li>
 <li><p>git push -u origin</p>
 <p>将本地仓库内容推送到远程仓库（origin当前git服务器地址）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git push -u origin master</span><br><span class="line">Enumerating objects: 3, <span class="keyword">done</span>.</span><br><span class="line">Counting objects: 100% (3/3), <span class="keyword">done</span>.</span><br><span class="line">Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, <span class="keyword">done</span>.</span><br><span class="line">Total 3 (delta 0), reused 0 (delta 0)</span><br><span class="line">To https://github.com/shi<span class="_">-lt</span>/test.git</span><br><span class="line"> * [new branch]      master -&gt; master</span><br><span class="line">Branch <span class="string">'master'</span> <span class="built_in">set</span> up to track remote branch <span class="string">'master'</span> from <span class="string">'origin'</span>.</span><br></pre></td></tr></table></figure>
-
-
-
+<pre><code class="bash">$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shi-lt/test.git
+ * [new branch]      master -&gt; master
+Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.</code></pre>
 </li>
 </ul>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul>
@@ -652,18 +646,16 @@
 <h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><ul>
 <li><p>git init</p>
 <p>初始化当前目录为一个本地仓库</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git init</span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> E:/git/<span class="built_in">test</span>/.git/</span><br></pre></td></tr></table></figure>
+<pre><code class="bash">$ git init
+Initialized empty Git repository in E:/git/test/.git/</code></pre>
 </li>
 <li><p>git remote add origin url</p>
 <p>将创建的本地仓库与远程仓库进行关联</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git remote add origin https://github.com/shi<span class="_">-lt</span>/test.git</span><br></pre></td></tr></table></figure>
+<pre><code class="bash">$ git remote add origin https://github.com/shi-lt/test.git</code></pre>
 </li>
 <li><p>git branch</p>
 <p>创建分支</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-
-
-
+<pre><code class="bash">$ git branch test</code></pre>
 </li>
 </ul>
 <h2 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h2><ul>
@@ -676,7 +668,8 @@
 </ul>
 <h2 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h2><ul>
 <li><p>git checkout</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout <span class="built_in">test</span></span><br><span class="line">Switched to branch <span class="string">'test'</span></span><br></pre></td></tr></table></figure>
+<pre><code class="bash">$ git checkout test
+Switched to branch &#39;test&#39;</code></pre>
 </li>
 <li><p>git mv</p>
 <p>移动文件</p>
@@ -695,6 +688,19 @@
       </categories>
       <tags>
         <tag>使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome to my blog</title>
+    <url>/2020/04/14/hello/</url>
+    <content><![CDATA[<a id="more"></a>
+<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>welcome</category>
+      </categories>
+      <tags>
+        <tag>welcome</tag>
       </tags>
   </entry>
   <entry>
@@ -732,9 +738,12 @@
 <td>json</td>
 </tr>
 </tbody></table>
-<h2 id="基本目录"><a href="#基本目录" class="headerlink" title="基本目录"></a>基本目录</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pages &#x2F;&#x2F; 入口文件</span><br><span class="line">utils &#x2F;&#x2F; 自己封装的函数工具</span><br><span class="line">app.js &#x2F;&#x2F; 全局js</span><br><span class="line">app.json &#x2F;&#x2F; 全局配置</span><br><span class="line">app.wxss  &#x2F;&#x2F; 全局样式</span><br><span class="line">project.config.json  &#x2F;&#x2F; 整个项目的描述文件</span><br></pre></td></tr></table></figure>
-
-<h2 id="一个程序页面由四个文件组成"><a href="#一个程序页面由四个文件组成" class="headerlink" title="一个程序页面由四个文件组成"></a>一个程序页面由四个文件组成</h2><table>
+<h2 id="基本目录"><a href="#基本目录" class="headerlink" title="基本目录"></a>基本目录</h2><pre><code>pages // 入口文件
+utils // 自己封装的函数工具
+app.js // 全局js
+app.json // 全局配置
+app.wxss  // 全局样式
+project.config.json  // 整个项目的描述文件</code></pre><h2 id="一个程序页面由四个文件组成"><a href="#一个程序页面由四个文件组成" class="headerlink" title="一个程序页面由四个文件组成"></a>一个程序页面由四个文件组成</h2><table>
 <thead>
 <tr>
 <th>文件类型</th>
@@ -767,26 +776,34 @@
 <li><p>WXML（WeiXin Markup Language）是框架设计的一套标签语言，结合<a href="https://developers.weixin.qq.com/miniprogram/dev/component/index.html" target="_blank" rel="noopener">基础组件</a>、<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件系统</a>，可以构建出页面的结构。</p>
 </li>
 <li><p>数据绑定</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span>&gt;</span> &#123;&#123;message&#125;&#125; <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<pre><code class="html">&lt;view&gt; {{message}} &lt;/view&gt;</code></pre>
 </li>
 <li><p>列表渲染</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;array&#125;&#125;"</span>&gt;</span> &#123;&#123;item&#125;&#125; <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<pre><code class="html">&lt;view wx:for=&quot;{{array}}&quot;&gt; {{item}} &lt;/view&gt;</code></pre>
 </li>
 <li><p>条件渲染</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:if</span>=<span class="string">"&#123;&#123;view == 'WEBVIEW'&#125;&#125;"</span>&gt;</span> WEBVIEW <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:elif</span>=<span class="string">"&#123;&#123;view == 'APP'&#125;&#125;"</span>&gt;</span> APP <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:else</span>=<span class="string">"&#123;&#123;view == 'MINA'&#125;&#125;"</span>&gt;</span> MINA <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<pre><code class="html">&lt;view wx:if=&quot;{{view == 'WEBVIEW'}}&quot;&gt; WEBVIEW &lt;/view&gt;
+&lt;view wx:elif=&quot;{{view == 'APP'}}&quot;&gt; APP &lt;/view&gt;
+&lt;view wx:else=&quot;{{view == 'MINA'}}&quot;&gt; MINA &lt;/view&gt;</code></pre>
 </li>
 <li><p>模板</p>
 <ul>
 <li><p>WXML提供模板（template），可以在模板中定义代码片段，然后在不同的地方调用。</p>
 </li>
 <li><p>定义模板，使用 name 属性，作为模板的名字。然后在<code>&lt;template/&gt;</code>内定义代码片段。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">name</span>=<span class="string">"msgItem"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">view</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">text</span>&gt;</span> &#123;&#123;index&#125;&#125;: &#123;&#123;msg&#125;&#125; <span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">text</span>&gt;</span> Time: &#123;&#123;time&#125;&#125; <span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<pre><code class="html">&lt;template name=&quot;msgItem&quot;&gt;
+  &lt;view&gt;
+    &lt;text&gt; {{index}}: {{msg}} &lt;/text&gt;
+    &lt;text&gt; Time: {{time}} &lt;/text&gt;
+  &lt;/view&gt;
+&lt;/template&gt;</code></pre>
 </li>
 <li><p>使用模板，模板拥有自己的作用域，只能使用 data 传入的数据以及模板定义文件中定义的 <code>&lt;wxs /&gt;</code> 模块。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">is</span>=<span class="string">"msgItem"</span> <span class="attr">data</span>=<span class="string">"&#123;&#123;...item&#125;&#125;"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">--</span>&gt;</span>动态选择模板<span class="tag">&lt;/<span class="name">--</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">block</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;[1, 2, 3, 4, 5]&#125;&#125;"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> <span class="attr">is</span>=<span class="string">"&#123;&#123;item % 2 == 0 ? 'even' : 'odd'&#125;&#125;"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">block</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
+<pre><code class="html">&lt;template is=&quot;msgItem&quot; data=&quot;{{...item}}&quot;/&gt;
+&lt;--&gt;动态选择模板&lt;/--&gt;
+&lt;block wx:for=&quot;{{[1, 2, 3, 4, 5]}}&quot;&gt;
+  &lt;template is=&quot;{{item % 2 == 0 ? 'even' : 'odd'}}&quot;/&gt;
+&lt;/block&gt;</code></pre>
 </li>
 </ul>
 </li>
@@ -796,11 +813,12 @@
 <ul>
 <li><p>WXML 提供两种文件引用方式<code>import</code>和<code>include</code>。</p>
 </li>
-<li><h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">import</span> <span class="attr">src</span>=<span class="string">"item.wxml"</span>/&gt;</span> </span><br><span class="line">import 只能引入item.wxml文件里边的template</span><br></pre></td></tr></table></figure>
+<li><h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><pre><code class="html">&lt;import src=&quot;item.wxml&quot;/&gt; 
+import 只能引入item.wxml文件里边的template</code></pre>
 </li>
 <li><p>include</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">include</span> <span class="attr">src</span>=<span class="string">"header.wxml"</span>/&gt;</span></span><br><span class="line">include 可以将目标文件除了 <span class="tag">&lt;<span class="name">template</span>/&gt;</span> <span class="tag">&lt;<span class="name">wxs</span>/&gt;</span> 外的整个代码引入，相当于是拷贝到 include 位置</span><br></pre></td></tr></table></figure>
-
+<pre><code class="html">&lt;include src=&quot;header.wxml&quot;/&gt;
+include 可以将目标文件除了 &lt;template/&gt; &lt;wxs/&gt; 外的整个代码引入，相当于是拷贝到 include 位置</code></pre>
 </li>
 </ul>
 </li>
@@ -847,87 +865,13 @@
       </tags>
   </entry>
   <entry>
-    <title>laravel框架</title>
-    <url>/2020/06/04/laravel/</url>
-    <content><![CDATA[<hr>
-<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><a id="more"></a>
-
-
-<ul>
-<li>通过composer创建</li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">composer create-project --prefer-dist laravel/laravel blog 5.4.*</span><br></pre></td></tr></table></figure>
-
-<h2 id="php-artisan-命令"><a href="#php-artisan-命令" class="headerlink" title="php artisan 命令"></a>php artisan 命令</h2><ul>
-<li><pre><code>php artisan route:list # 查看路由
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
-php artisan make:controller 路径/控制名 # 生成控制器文件
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-php artisan make:其他操作
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  路由</span><br><span class="line"></span><br><span class="line">- 在routes目录中的web.php设置</span><br><span class="line"></span><br><span class="line">- 路由定义方式</span><br><span class="line"></span><br><span class="line">  - Route::请求方式(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  - 常用请求方式：</span><br><span class="line">    - get(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - post(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - any(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - match([&quot;请求类型&quot;，...],&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  </span><br><span class="line">- 路由参数(不推荐，可通过url?param传参数)</span><br><span class="line"></span><br><span class="line">  - 必选参数&#123;param&#125;</span><br><span class="line">  - 非必选参数&#123;param?&#125;</span><br><span class="line"></span><br><span class="line">- 路由别名</span><br><span class="line"></span><br><span class="line">  - Route::get( , )-&gt;name(&quot;别名&quot;);</span><br><span class="line"></span><br><span class="line">  - 可通过获取route(&quot;别名&quot;)</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
-  php artisan route:list # 查看应用路由
-  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 路由群组</span><br><span class="line"></span><br><span class="line">  - Route::group(公共属性数组[前缀、命名空间、中间件等],回调函数)</span><br><span class="line"></span><br><span class="line">- 控制器路由</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
-  Route::请求方法(路由表达式，“控制器名@方法”)
-  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  控制器接收用户输入</span><br><span class="line"></span><br><span class="line">- 使用门面input</span><br><span class="line"></span><br><span class="line">  - input::get()</span><br><span class="line"></span><br><span class="line">  - input::all()</span><br><span class="line"></span><br><span class="line">  - input::only()</span><br><span class="line"></span><br><span class="line">  - input::except()</span><br><span class="line"></span><br><span class="line">  - input::has</span><br><span class="line"></span><br><span class="line">    以上均可以获取get、post方法的信息</span><br><span class="line"></span><br><span class="line">- 可在config&#x2F;app.php的aliases数组中定义长串字符的别名</span><br><span class="line"></span><br><span class="line">  - 如命名空间</span><br><span class="line"></span><br><span class="line">## dd（）：dump+die 用于调试输出</span><br><span class="line"></span><br><span class="line">## &quot;&#x2F;&quot; 与 &quot;.&quot; 在某种情况下等效,例如查找视图文件view(&quot;home.index&quot;) &#x3D;&#x3D; view(&quot;home&#x2F;index&quot;)</span><br><span class="line"></span><br><span class="line">## 视图文件的命名于渲染</span><br><span class="line"></span><br><span class="line">- 文件名习惯小写</span><br><span class="line">- 文件名单后缀是.blade.php,可以直接使用标签语法&#123;&#123;$title&#125;&#125;（.php不可使用，.balde.php优先级高于.php）,也可使用php原生语法</span><br><span class="line"></span><br><span class="line">## campact()函数打包数组，php内置函数</span><br><span class="line"></span><br><span class="line">## 模板中直接使用函数</span><br><span class="line"></span><br><span class="line">- &#123;&#123;函数名(参数1，参数2...)&#125;&#125;,php内置函数或laravel框架的函数</span><br><span class="line"></span><br><span class="line">## 循环与选择</span><br><span class="line"></span><br><span class="line">- 循环</span><br></pre></td></tr></table></figure>
-@foreach($data $k =&gt; $v)
-@endforeach
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 选择</span><br></pre></td></tr></table></figure>
-@if()
-@elseif()
-@endif
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 模板继承和模板包含</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
-父:@yield()
-子：@extends(&apos;模板名&apos;)
-@section() 绑定区块
-@endsection()
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 模板引入外部静态文件</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
-父:@yield()
-子：@extends(&apos;模板名&apos;)
-@section() 绑定区块
-@endsection()
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line">- 使用laravel封装的asset函数</span><br><span class="line"></span><br><span class="line">## CSRF攻击</span><br><span class="line"></span><br><span class="line">- 跨站请求伪造</span><br><span class="line"></span><br><span class="line">- 全局函数csrf_token()获取Token值</span><br><span class="line"></span><br><span class="line">- html中加入代码</span><br><span class="line"></span><br><span class="line">  &#96;&#96;&#96;php+HTML</span><br><span class="line">  &lt;input type &#x3D; &quot;hidden&quot; name &#x3D; &quot;_token&quot; value &#x3D; &quot;&lt;?php echo csrf_token(); ?&gt;&quot;</span><br><span class="line">  &#x2F;&#x2F; 等价于</span><br><span class="line">  &#123;&#123;csrf_field()&#125;&#125;</span><br><span class="line">  &#x2F;&#x2F; ajax提交使用csrf_token()</span><br></pre></td></tr></table></figure></code></pre></li>
-<li><p>laravel 默认开启csrf验证</p>
-</li>
-<li><p>排除某些路由进行csrf验证</p>
-<p>在app/Http/Middleware/VerifyCsrfToken.php中修改</p>
-</li>
-</ul>
-<h2 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h2><p><img src="image-20200605002302627.png" alt="模型"></p>
-<h2 id="seed（简而言之，将测试数据保存到数据库）"><a href="#seed（简而言之，将测试数据保存到数据库）" class="headerlink" title="seed（简而言之，将测试数据保存到数据库）"></a>seed（简而言之，将测试数据保存到数据库）</h2><ul>
-<li>在laravel的中文文档是这样写的：Laravel 包含一个填充类可以为你的数据库填充测试数据。所有的填充类都放在 database/seeds 目录下。你可以随意为填充类命名， 但是更建议您遵守类似 UsersTableSeeder 的命名规范。通常， Laravel 默认定义了一个 DatabaseSeeder 类。<pre><code>所以，seed的作用主要是用来填充数据库中的数据。在实际开发过程中，我们通常需要加入一些测试数据，或者保存数据库中的初始数据，防止在开发过程中遇到的数据丢失，加的话还是挺麻烦的。当然，也可以直接导出数据库的表结构和表数据。</code></pre></li>
-<li>测试数据较多是可用模型工厂</li>
-</ul>
-<h2 id="provider"><a href="#provider" class="headerlink" title="provider"></a>provider</h2><ul>
-<li>provider是laravel程序的核心所在，包括你自己的应用程序，以及所有的 Laravel 核心服务，都是通过服务提供者启动的。一般而言，我们指的是 <strong>注册</strong> 事物，包括注册服务容器绑定、事件侦听器、中间件，甚至路由。服务提供者是设置你的应用程序的中心所在。</li>
-</ul>
-<p>##　repository</p>
-<ul>
-<li>repository是数据库抽象层，目的是将应用的数据库操作和核心的业务逻辑分开，保证controller的精致。</li>
-<li>repository提供criteria（标准）和transformer（变压器）来解卦数据库的查询和查询结果的展示，使得各部分分离开来，解开耦合。同时repository接管model层，使得model层专注于数据模型本身的定义，例如：relationship，fillable（可填充）等<ul>
-<li>ceiteria<ul>
-<li>所有的Criteria都要实现Criteria接口中的apply方法。</li>
-</ul>
-</li>
-<li>transformer</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>laravel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>php</title>
     <url>/2020/06/04/php/</url>
     <content><![CDATA[<hr>
 <h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
 
 <ul>
-<li><pre><code class="php"><span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span></span>{
+<li><pre><code class="php">function __construct(){
 ...
 }</code></pre>
 </li>
