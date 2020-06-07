@@ -1,11 +1,529 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown基本使用</title>
-    <url>/2020/04/14/Markdown/</url>
-    <content><![CDATA[<p>标题</p>
+    <title>English Word</title>
+    <url>/2020/06/04/English/</url>
+    <content><![CDATA[<h1 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h1><a id="more"></a>
+
 <hr>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">单词</th>
+<th align="right">词义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left">point</td>
+<td align="right">点，观点，论点，见解</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">component</td>
+<td align="right">组成部分；成分；部件；成分的；组成的；合成的</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">provider</td>
+<td align="right">供应商，供应者</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">container</td>
+<td align="right">容器</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">seed</td>
+<td align="right">种子</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">resources</td>
+<td align="right">资源；财力；素质</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">relationship</td>
+<td align="right">关系；联系；关联</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">fillable</td>
+<td align="right">可填充</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">criterion</td>
+<td align="right">标准；准则</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">transformer</td>
+<td align="right">变压器</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">CURD</td>
+<td align="right">创更读删</td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">C：create</td>
+<td align="right">创建</td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">U：update</td>
+<td align="right">跟新</td>
+</tr>
+<tr>
+<td align="left">14</td>
+<td align="left">R：retrieve</td>
+<td align="right">读取</td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">D：delete</td>
+<td align="right">删除</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ecshop</title>
+    <url>/2020/06/04/ecshop/</url>
+    <content><![CDATA[<hr>
+<h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
+
+<ul>
+<li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p>
+<ul>
+<li>routes.php路由设置</li>
+<li>bootstrap.php</li>
+<li>Controllers<ul>
+<li>HomeController.php</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p>
+<ul>
+<li>会员模块<ul>
+<li>resources<ul>
+<li>assets</li>
+<li>views</li>
+</ul>
+</li>
+<li>src<ul>
+<li>Http</li>
+<li>Models</li>
+<li>Providers</li>
+<li>Respository</li>
+<li>Seeds</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>商城模块</li>
+<li>分销模块</li>
+</ul>
+</li>
+<li><p>component：存放部分模型、仓库（Respository）</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>札记</category>
+      </categories>
+      <tags>
+        <tag>ecshop</tag>
+        <tag>laravel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown基本使用</title>
+    <url>/2020/06/14/Markdown/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
 <p>字体</p>
 <hr>
 <p><em>斜体</em></p>
@@ -83,7 +601,10 @@
   <entry>
     <title>git基本使用</title>
     <url>/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
+    <content><![CDATA[<hr>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><a id="more"></a>
+
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
 <li><p>git clone</p>
 <p>将github上的仓库克隆到本地磁盘并创建本地仓库</p>
 </li>
@@ -166,13 +687,257 @@
   <entry>
     <title>Welcome to my blog</title>
     <url>/2020/04/14/hello/</url>
-    <content><![CDATA[<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+    <content><![CDATA[<a id="more"></a>
+<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
 ]]></content>
       <categories>
         <category>welcome</category>
       </categories>
       <tags>
         <tag>welcome</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>laravel框架</title>
+    <url>/2020/06/04/laravel/</url>
+    <content><![CDATA[<hr>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><a id="more"></a>
+
+
+<ul>
+<li>通过composer创建</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">composer create-project --prefer-dist laravel/laravel blog 5.4.*</span><br></pre></td></tr></table></figure>
+
+<h2 id="php-artisan-命令"><a href="#php-artisan-命令" class="headerlink" title="php artisan 命令"></a>php artisan 命令</h2><ul>
+<li><pre><code>php artisan route:list # 查看路由
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
+php artisan make:controller 路径/控制名 # 生成控制器文件
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+php artisan make:其他操作
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  路由</span><br><span class="line"></span><br><span class="line">- 在routes目录中的web.php设置</span><br><span class="line"></span><br><span class="line">- 路由定义方式</span><br><span class="line"></span><br><span class="line">  - Route::请求方式(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  - 常用请求方式：</span><br><span class="line">    - get(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - post(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - any(&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">    - match([&quot;请求类型&quot;，...],&quot;路由表达式&quot;,匿名函数或控制响应的方法)</span><br><span class="line">  </span><br><span class="line">- 路由参数(不推荐，可通过url?param传参数)</span><br><span class="line"></span><br><span class="line">  - 必选参数&#123;param&#125;</span><br><span class="line">  - 非必选参数&#123;param?&#125;</span><br><span class="line"></span><br><span class="line">- 路由别名</span><br><span class="line"></span><br><span class="line">  - Route::get( , )-&gt;name(&quot;别名&quot;);</span><br><span class="line"></span><br><span class="line">  - 可通过获取route(&quot;别名&quot;)</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
+  php artisan route:list # 查看应用路由
+  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 路由群组</span><br><span class="line"></span><br><span class="line">  - Route::group(公共属性数组[前缀、命名空间、中间件等],回调函数)</span><br><span class="line"></span><br><span class="line">- 控制器路由</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
+  Route::请求方法(路由表达式，“控制器名@方法”)
+  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">##  控制器接收用户输入</span><br><span class="line"></span><br><span class="line">- 使用门面input</span><br><span class="line"></span><br><span class="line">  - input::get()</span><br><span class="line"></span><br><span class="line">  - input::all()</span><br><span class="line"></span><br><span class="line">  - input::only()</span><br><span class="line"></span><br><span class="line">  - input::except()</span><br><span class="line"></span><br><span class="line">  - input::has</span><br><span class="line"></span><br><span class="line">    以上均可以获取get、post方法的信息</span><br><span class="line"></span><br><span class="line">- 可在config&#x2F;app.php的aliases数组中定义长串字符的别名</span><br><span class="line"></span><br><span class="line">  - 如命名空间</span><br><span class="line"></span><br><span class="line">## dd（）：dump+die 用于调试输出</span><br><span class="line"></span><br><span class="line">## &quot;&#x2F;&quot; 与 &quot;.&quot; 在某种情况下等效,例如查找视图文件view(&quot;home.index&quot;) &#x3D;&#x3D; view(&quot;home&#x2F;index&quot;)</span><br><span class="line"></span><br><span class="line">## 视图文件的命名于渲染</span><br><span class="line"></span><br><span class="line">- 文件名习惯小写</span><br><span class="line">- 文件名单后缀是.blade.php,可以直接使用标签语法&#123;&#123;$title&#125;&#125;（.php不可使用，.balde.php优先级高于.php）,也可使用php原生语法</span><br><span class="line"></span><br><span class="line">## campact()函数打包数组，php内置函数</span><br><span class="line"></span><br><span class="line">## 模板中直接使用函数</span><br><span class="line"></span><br><span class="line">- &#123;&#123;函数名(参数1，参数2...)&#125;&#125;,php内置函数或laravel框架的函数</span><br><span class="line"></span><br><span class="line">## 循环与选择</span><br><span class="line"></span><br><span class="line">- 循环</span><br></pre></td></tr></table></figure>
+@foreach($data $k =&gt; $v)
+@endforeach
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 选择</span><br></pre></td></tr></table></figure>
+@if()
+@elseif()
+@endif
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 模板继承和模板包含</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
+父:@yield()
+子：@extends(&apos;模板名&apos;)
+@section() 绑定区块
+@endsection()
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 模板引入外部静态文件</span><br><span class="line"></span><br><span class="line">- 继承</span><br></pre></td></tr></table></figure>
+父:@yield()
+子：@extends(&apos;模板名&apos;)
+@section() 绑定区块
+@endsection()
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">  # 微信小程序</span><br><span class="line"></span><br><span class="line">  html的方式</span><br><span class="line">- 使用laravel封装的asset函数</span><br><span class="line"></span><br><span class="line">## CSRF攻击</span><br><span class="line"></span><br><span class="line">- 跨站请求伪造</span><br><span class="line"></span><br><span class="line">- 全局函数csrf_token()获取Token值</span><br><span class="line"></span><br><span class="line">- html中加入代码</span><br><span class="line"></span><br><span class="line">  &#96;&#96;&#96;php+HTML</span><br><span class="line">  &lt;input type &#x3D; &quot;hidden&quot; name &#x3D; &quot;_token&quot; value &#x3D; &quot;&lt;?php echo csrf_token(); ?&gt;&quot;</span><br><span class="line">  &#x2F;&#x2F; 等价于</span><br><span class="line">  &#123;&#123;csrf_field()&#125;&#125;</span><br><span class="line">  &#x2F;&#x2F; ajax提交使用csrf_token()</span><br></pre></td></tr></table></figure></code></pre></li>
+<li><p>laravel 默认开启csrf验证</p>
+</li>
+<li><p>排除某些路由进行csrf验证</p>
+<p>在app/Http/Middleware/VerifyCsrfToken.php中修改</p>
+</li>
+</ul>
+<h2 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h2><p><img src="image-20200605002302627.png" alt="模型"></p>
+<h2 id="seed（简而言之，将测试数据保存到数据库）"><a href="#seed（简而言之，将测试数据保存到数据库）" class="headerlink" title="seed（简而言之，将测试数据保存到数据库）"></a>seed（简而言之，将测试数据保存到数据库）</h2><ul>
+<li>在laravel的中文文档是这样写的：Laravel 包含一个填充类可以为你的数据库填充测试数据。所有的填充类都放在 database/seeds 目录下。你可以随意为填充类命名， 但是更建议您遵守类似 UsersTableSeeder 的命名规范。通常， Laravel 默认定义了一个 DatabaseSeeder 类。<pre><code>所以，seed的作用主要是用来填充数据库中的数据。在实际开发过程中，我们通常需要加入一些测试数据，或者保存数据库中的初始数据，防止在开发过程中遇到的数据丢失，加的话还是挺麻烦的。当然，也可以直接导出数据库的表结构和表数据。</code></pre></li>
+<li>测试数据较多是可用模型工厂</li>
+</ul>
+<h2 id="provider"><a href="#provider" class="headerlink" title="provider"></a>provider</h2><ul>
+<li>provider是laravel程序的核心所在，包括你自己的应用程序，以及所有的 Laravel 核心服务，都是通过服务提供者启动的。一般而言，我们指的是 <strong>注册</strong> 事物，包括注册服务容器绑定、事件侦听器、中间件，甚至路由。服务提供者是设置你的应用程序的中心所在。</li>
+</ul>
+<p>##　repository</p>
+<ul>
+<li>repository是数据库抽象层，目的是将应用的数据库操作和核心的业务逻辑分开，保证controller的精致。</li>
+<li>repository提供criteria（标准）和transformer（变压器）来解卦数据库的查询和查询结果的展示，使得各部分分离开来，解开耦合。同时repository接管model层，使得model层专注于数据模型本身的定义，例如：relationship，fillable（可填充）等<ul>
+<li>ceiteria<ul>
+<li>所有的Criteria都要实现Criteria接口中的apply方法。</li>
+</ul>
+</li>
+<li>transformer</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>laravel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>miniprogram</title>
+    <url>/2020/06/06/miniprogram/</url>
+    <content><![CDATA[<hr>
+<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><a id="more"></a>
+
+<table>
+<thead>
+<tr>
+<th>结构</th>
+<th>传统web</th>
+<th>微信小程序</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>结构</td>
+<td>HTML</td>
+<td>WXML</td>
+</tr>
+<tr>
+<td>样式</td>
+<td>CSS</td>
+<td>WXSS</td>
+</tr>
+<tr>
+<td>逻辑</td>
+<td>Javascript</td>
+<td>Javascript</td>
+</tr>
+<tr>
+<td>配置</td>
+<td>无</td>
+<td>json</td>
+</tr>
+</tbody></table>
+<h2 id="基本目录"><a href="#基本目录" class="headerlink" title="基本目录"></a>基本目录</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pages &#x2F;&#x2F; 入口文件</span><br><span class="line">utils &#x2F;&#x2F; 自己封装的函数工具</span><br><span class="line">app.js &#x2F;&#x2F; 全局js</span><br><span class="line">app.json &#x2F;&#x2F; 全局配置</span><br><span class="line">app.wxss  &#x2F;&#x2F; 全局样式</span><br><span class="line">project.config.json  &#x2F;&#x2F; 整个项目的描述文件</span><br></pre></td></tr></table></figure>
+
+<h2 id="一个程序页面由四个文件组成"><a href="#一个程序页面由四个文件组成" class="headerlink" title="一个程序页面由四个文件组成"></a>一个程序页面由四个文件组成</h2><table>
+<thead>
+<tr>
+<th>文件类型</th>
+<th>必需</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>js</td>
+<td>是</td>
+<td>页面逻辑</td>
+</tr>
+<tr>
+<td>wxml</td>
+<td>是</td>
+<td>页面结构</td>
+</tr>
+<tr>
+<td>json</td>
+<td>否</td>
+<td>页面配置</td>
+</tr>
+<tr>
+<td>wxss</td>
+<td>否</td>
+<td>页面样式表</td>
+</tr>
+</tbody></table>
+<h2 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h2><ul>
+<li><p>WXML（WeiXin Markup Language）是框架设计的一套标签语言，结合<a href="https://developers.weixin.qq.com/miniprogram/dev/component/index.html" target="_blank" rel="noopener">基础组件</a>、<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件系统</a>，可以构建出页面的结构。</p>
+</li>
+<li><p>数据绑定</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span>&gt;</span> &#123;&#123;message&#125;&#125; <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>列表渲染</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;array&#125;&#125;"</span>&gt;</span> &#123;&#123;item&#125;&#125; <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>条件渲染</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:if</span>=<span class="string">"&#123;&#123;view == 'WEBVIEW'&#125;&#125;"</span>&gt;</span> WEBVIEW <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:elif</span>=<span class="string">"&#123;&#123;view == 'APP'&#125;&#125;"</span>&gt;</span> APP <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:else</span>=<span class="string">"&#123;&#123;view == 'MINA'&#125;&#125;"</span>&gt;</span> MINA <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>模板</p>
+<ul>
+<li><p>WXML提供模板（template），可以在模板中定义代码片段，然后在不同的地方调用。</p>
+</li>
+<li><p>定义模板，使用 name 属性，作为模板的名字。然后在<code>&lt;template/&gt;</code>内定义代码片段。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">name</span>=<span class="string">"msgItem"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">view</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">text</span>&gt;</span> &#123;&#123;index&#125;&#125;: &#123;&#123;msg&#125;&#125; <span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">text</span>&gt;</span> Time: &#123;&#123;time&#125;&#125; <span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用模板，模板拥有自己的作用域，只能使用 data 传入的数据以及模板定义文件中定义的 <code>&lt;wxs /&gt;</code> 模块。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">is</span>=<span class="string">"msgItem"</span> <span class="attr">data</span>=<span class="string">"&#123;&#123;...item&#125;&#125;"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">--</span>&gt;</span>动态选择模板<span class="tag">&lt;/<span class="name">--</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">block</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;[1, 2, 3, 4, 5]&#125;&#125;"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> <span class="attr">is</span>=<span class="string">"&#123;&#123;item % 2 == 0 ? 'even' : 'odd'&#125;&#125;"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">block</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>引用</p>
+<ul>
+<li><p>WXML 提供两种文件引用方式<code>import</code>和<code>include</code>。</p>
+</li>
+<li><h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">import</span> <span class="attr">src</span>=<span class="string">"item.wxml"</span>/&gt;</span> </span><br><span class="line">import 只能引入item.wxml文件里边的template</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>include</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">include</span> <span class="attr">src</span>=<span class="string">"header.wxml"</span>/&gt;</span></span><br><span class="line">include 可以将目标文件除了 <span class="tag">&lt;<span class="name">template</span>/&gt;</span> <span class="tag">&lt;<span class="name">wxs</span>/&gt;</span> 外的整个代码引入，相当于是拷贝到 include 位置</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绑定事件"><a href="#绑定事件" class="headerlink" title="绑定事件"></a>绑定事件</h2><ul>
+<li><p>bind事件</p>
+</li>
+<li><p>cmd触发的事件</p>
+</li>
+<li><p>获取事件源</p>
+</li>
+<li><p><img src="image-20200606141454130.png" alt="图片"></p>
+<p><img src="image-20200606142051827.png" alt="图片"></p>
+</li>
+</ul>
+<h2 id="自定义组件"><a href="#自定义组件" class="headerlink" title="自定义组件"></a>自定义组件</h2><ul>
+<li><p>将公共部分抽取出来，定义成一个组件。</p>
+<ul>
+<li><p>定义组件</p>
+<ul>
+<li>properties存放接收的数据</li>
+<li>data存放组件的初始数据</li>
+<li>methods存放方法</li>
+</ul>
+</li>
+<li><p>声明组件</p>
+</li>
+</ul>
+</li>
+<li><p>父向子传数据</p>
+</li>
+<li><p>子向父传数据</p>
+</li>
+</ul>
+<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
+<li><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/framework/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>miniprogram</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>php</title>
+    <url>/2020/06/04/php/</url>
+    <content><![CDATA[<hr>
+<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
+
+<ul>
+<li><pre><code class="php"><span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span></span>{
+...
+}</code></pre>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
       </tags>
   </entry>
 </search>
