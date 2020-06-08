@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>English Word</title>
-    <url>/English.html</url>
+    <url>/:/2020/06/04/English/</url>
     <content><![CDATA[<h1 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h1><a id="more"></a>
 
 <hr>
@@ -470,7 +470,7 @@
   </entry>
   <entry>
     <title>Markdown基本使用</title>
-    <url>/Markdown.html</url>
+    <url>/:/2020/06/14/Markdown/</url>
     <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a>
 <h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
 <p>字体</p>
@@ -549,7 +549,7 @@
   </entry>
   <entry>
     <title>ecshop</title>
-    <url>/ecshop.html</url>
+    <url>/:/2020/06/04/ecshop/</url>
     <content><![CDATA[<hr>
 <h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
 
@@ -600,7 +600,7 @@
   </entry>
   <entry>
     <title>git基本使用</title>
-    <url>/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</url>
+    <url>/:/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<hr>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><a id="more"></a>
 
@@ -692,7 +692,7 @@ Switched to branch &#39;test&#39;</code></pre>
   </entry>
   <entry>
     <title>Welcome to my blog</title>
-    <url>/hello.html</url>
+    <url>/:/2020/06/06/hello/</url>
     <content><![CDATA[<a id="more"></a>
 <h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
 ]]></content>
@@ -704,28 +704,8 @@ Switched to branch &#39;test&#39;</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>php</title>
-    <url>/php.html</url>
-    <content><![CDATA[<hr>
-<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
-
-<ul>
-<li><pre><code class="php">function __construct(){
-...
-}</code></pre>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>php</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>miniprogram</title>
-    <url>/miniprogram.html</url>
+    <url>/:/2020/06/06/miniprogram/</url>
     <content><![CDATA[<hr>
 <h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><a id="more"></a>
 
@@ -882,6 +862,26 @@ include 可以将目标文件除了 &lt;template/&gt; &lt;wxs/&gt; 外的整个�
       </categories>
       <tags>
         <tag>miniprogram</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>php</title>
+    <url>/:/2020/06/04/php/</url>
+    <content><![CDATA[<hr>
+<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
+
+<ul>
+<li><pre><code class="php">function __construct(){
+...
+}</code></pre>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
       </tags>
   </entry>
 </search>
