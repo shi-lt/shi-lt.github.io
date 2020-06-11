@@ -469,6 +469,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Welcome to my blog</title>
+    <url>//2020/06/06/hello/</url>
+    <content><![CDATA[<a id="more"></a>
+<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>welcome</category>
+      </categories>
+      <tags>
+        <tag>welcome</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ecshop</title>
     <url>//2020/06/04/ecshop/</url>
     <content><![CDATA[<hr>
@@ -691,6 +704,26 @@ Switched to branch &#39;test&#39;</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>php</title>
+    <url>//2020/06/04/php/</url>
+    <content><![CDATA[<hr>
+<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
+
+<ul>
+<li><pre><code class="php">function __construct(){
+...
+}</code></pre>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>miniprogram</title>
     <url>//2020/06/06/miniprogram/</url>
     <content><![CDATA[<hr>
@@ -849,39 +882,6 @@ include 可以将目标文件除了 &lt;template/&gt; &lt;wxs/&gt; 外的整个�
       </categories>
       <tags>
         <tag>miniprogram</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Welcome to my blog</title>
-    <url>//2020/06/06/hello/</url>
-    <content><![CDATA[<a id="more"></a>
-<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>welcome</category>
-      </categories>
-      <tags>
-        <tag>welcome</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>php</title>
-    <url>//2020/06/04/php/</url>
-    <content><![CDATA[<hr>
-<h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><a id="more"></a>
-
-<ul>
-<li><pre><code class="php">function __construct(){
-...
-}</code></pre>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>php</tag>
       </tags>
   </entry>
 </search>
