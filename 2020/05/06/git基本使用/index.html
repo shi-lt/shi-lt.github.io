@@ -463,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-07
+                    2020-06-29
                 </div>
                 
 
@@ -487,13 +487,12 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><a id="more"></a>
-
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
+                <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
 <li><p>git clone</p>
 <p>将github上的仓库克隆到本地磁盘并创建本地仓库</p>
 </li>
+</ul>
+<ul>
 <li><p>git pull</p>
 <p>将远程远程仓库拉取到本地仓库</p>
 </li>
@@ -504,23 +503,25 @@
 </li>
 <li><p>git commit -m</p>
 <p>将缓存区内容提交到本地仓库（默认master分支）</p>
-<pre><code class="bash">$ git commit -m &quot;test001&quot;
-[master (root-commit) 6848e60] test001
- 1 file changed, 1 insertion(+)
- create mode 100644 t.txt</code></pre>
-</li>
-<li><p>git push -u origin</p>
-<p>将本地仓库内容推送到远程仓库（origin当前git服务器地址）</p>
-<pre><code class="bash">$ git push -u origin master
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/shi-lt/test.git
- * [new branch]      master -&gt; master
-Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.</code></pre>
 </li>
 </ul>
+<pre><code class="bash">  $ git commit -m &quot;test001&quot;
+  [master (root-commit) 6848e60] test001
+   1 file changed, 1 insertion(+)
+   create mode 100644 t.txt</code></pre>
+<ul>
+<li><p>git push -u origin</p>
+<p>将本地仓库内容推送到远程仓库（origin当前git服务器地址）</p>
+</li>
+</ul>
+<pre><code class="bash">  $ git push -u origin master
+  Enumerating objects: 3, done.
+  Counting objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 206 bytes | 18.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0)
+  To https://github.com/shi-lt/test.git
+   * [new branch]      master -&gt; master
+  Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.</code></pre>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul>
 <li><p>git config –global user.name</p>
 <p>设置全局用户名</p>
@@ -532,18 +533,22 @@ Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39
 <h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><ul>
 <li><p>git init</p>
 <p>初始化当前目录为一个本地仓库</p>
-<pre><code class="bash">$ git init
-Initialized empty Git repository in E:/git/test/.git/</code></pre>
-</li>
-<li><p>git remote add origin url</p>
-<p>将创建的本地仓库与远程仓库进行关联</p>
-<pre><code class="bash">$ git remote add origin https://github.com/shi-lt/test.git</code></pre>
-</li>
-<li><p>git branch</p>
-<p>创建分支</p>
-<pre><code class="bash">$ git branch test</code></pre>
 </li>
 </ul>
+<pre><code class="bash">  $ git init
+  Initialized empty Git repository in E:/git/test/.git/</code></pre>
+<ul>
+<li><p>git remote add origin url</p>
+<p>将创建的本地仓库与远程仓库进行关联</p>
+</li>
+</ul>
+<pre><code class="bash">  $ git remote add origin https://github.com/shi-lt/test.git</code></pre>
+<ul>
+<li><p>git branch</p>
+<p>创建分支</p>
+</li>
+</ul>
+<pre><code class="bash">  $ git branch test</code></pre>
 <h2 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h2><ul>
 <li><p>git log</p>
 <p>查看提交记录</p>
@@ -678,28 +683,21 @@ Switched to branch &#39;test&#39;</code></pre>
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/04/php/">
+                <a href="/2020/06/04/PHP%20laravel%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="php">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="laravel框架环境搭建">
                         
-                        <span class="card-title">php</span>
+                        <span class="card-title">laravel框架环境搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-类中的构造方法
+                            中文手册链接1、[https://learnku.com/docs/laravel/5.5](https://learnku.com/docs/laravel/5.5)
 
-
-function __construct(){
-...
-}
-
-
-
+2、[https://xueyuanjun.com/post/762
                         
                     </div>
                     <div class="publish-info">
@@ -721,8 +719,12 @@ function __construct(){
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/php/">
-                        <span class="chip bg-color">php</span>
+                    <a href="/tags/laravel/">
+                        <span class="chip bg-color">laravel</span>
+                    </a>
+                    
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
                 </div>
@@ -748,12 +750,11 @@ function __construct(){
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-常用命令
-
-下载
+                            常用命令下载
 git clone
 将github上的仓库克隆到本地磁盘并创建本地仓库
+
+
 
 git pull
 将远程远程仓库拉取到本地仓库
@@ -764,7 +765,7 @@ git add
 将本地文件添加到缓存区
 
 git commit -m
-将缓存区内容提交到
+将缓存区内容提交到本
                         
                     </div>
                     <div class="publish-info">
@@ -978,7 +979,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.3k</span>&nbsp;字
+                class="white-color">4.8k</span>&nbsp;字
             
             
             

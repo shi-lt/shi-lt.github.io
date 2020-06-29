@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="PHP, shi-lt">
+    <meta name="keywords" content="python基础, shi-lt">
     <meta name="description" content="一觉游仙好梦，任它竹冷松寒。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>PHP | 个人博客</title>
+    <title>python基础 | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">PHP</h1>
+                    <h1 class="description center-align post-title">python基础</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/PHP/">
-                                <span class="chip bg-color">PHP</span>
+                            <a href="/tags/python/">
+                                <span class="chip bg-color">python</span>
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-04
+                    2020-06-30
                 </div>
                 
 
@@ -470,14 +470,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    38
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    9 分
                 </div>
                 
 
@@ -487,12 +487,322 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="类中的构造方法"><a href="#类中的构造方法" class="headerlink" title="类中的构造方法"></a>类中的构造方法</h2><pre><code class="php">`function __construct(){  ...  }`</code></pre>
-<h2 id="判断是否为数字或数字字符串"><a href="#判断是否为数字或数字字符串" class="headerlink" title="判断是否为数字或数字字符串"></a>判断是否为数字或数字字符串</h2><pre><code class="php">bool is_numeric ($var)</code></pre>
-<h2 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h2><pre><code class="php">(func = )function($name){
-  printf($name);
-}</code></pre>
-<h2 id="事件机制"><a href="#事件机制" class="headerlink" title="事件机制"></a>事件机制</h2>
+                <h2 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h2><ul>
+<li>输入<ul>
+<li>input()</li>
+<li>sys.stdin.readline() # 带有换行符‘/n’</li>
+<li>快速读入的一种方法：*(open(0))，无缓冲读取整个文件，返回一个迭代器。（在屏幕中输入需要按Ctrl+Z结束输入）</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>print()</li>
+<li>sys.stdout.write() # 不会自动换行，只能接收一个参数，格式必须是字符串</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>字符串元素值不可修改，支持切片。</p>
+<ul>
+<li>字符串格式化<ul>
+<li>%</li>
+<li>“{:}”.format()</li>
+</ul>
+</li>
+</ul>
+<p>{：.2f}         保留小数点后两位</p>
+<p>{：+.2f}     带符号保留小数点后两位</p>
+<p>{:0f}        不带小数</p>
+<p>{：0&gt;2d}        数字补零（填充左边，宽度为2）</p>
+<p>{：x&lt;4d}        数字补x（填充右边，宽度为4）</p>
+<p>{：，}        以逗号分隔的数字格式</p>
+<p>{：.2%}        百分比格式</p>
+<p>{：2e}        指数记法</p>
+<p>{：&gt;10d}        右对齐（宽度为10）</p>
+<p>{：&lt;10d}        左对齐（宽度为10）</p>
+<p>{：^10d}        中间对齐（宽度为10）</p>
+<p>{：？}        输出？进制数,b、d、o、x        分别为二进制、十进制、八进制、十六进制</p>
+<p>r/R 原始字符，不进行转义</p>
+<ul>
+<li>内建函数</li>
+</ul>
+<p>str.capitalize():将字符串的第一个字符转为大写</p>
+<p>str.center(width,fillchar):字符串填充</p>
+<p>str.find(char,beg=0,end=len(str)):查找字符串</p>
+<p>str.index(char,beg=0,end=len(str)):查找字符串</p>
+<p>str.join(seq):返回通过指定字符连接序列中元素后生成的新的字符串</p>
+<p>str.ljust(width,fillchar):返回一个原字符串左对齐，并使用fillchar填充至指定长度</p>
+<p>str.lower():转大写为小写</p>
+<p>str.lstrip():截掉字符串左边的空格或指定字符</p>
+<p>str.max(str):返回字符串str中最大的字母</p>
+<p>str.min(str):返回字符串str中最小的字母</p>
+<p>str.replace(old,new):将字符串中的old字符替换为new</p>
+<p>str.rfind(str):查找字符串，从右边开始找</p>
+<p>str.rindex():查找字符串，从右边开始找</p>
+<p>str.rjust(width,fillchar):右对齐，并使用fillchar填充至指定长度</p>
+<p>str.rstrip():删除字符串末尾空格或指定字符</p>
+<p>str.split():分割字符串</p>
+<p>str.strip():去掉左右端的空格</p>
+<p>str.swapcase():大写转小写，小写转大写</p>
+<p>upper()：小写转为大写</p>
+<p>zfill(width):返回长度为width的字符串，右对齐，填充0。</p>
+<ul>
+<li>字符串判断<ul>
+<li>str.isalnum()  所有字符都是数字或者字母，为真返回 Ture，否则返回 False。</li>
+<li>str.isalpha()   所有字符都是字母(当字符串为中文时, 也返回True)，为真返回 Ture，否则返回 False。</li>
+<li>str.isdigit()     所有字符都是数字，为真返回 Ture，否则返回 False。</li>
+<li>str.islower()    所有字符都是小写，为真返回 Ture，否则返回 False。</li>
+<li>str.isupper()   所有字符都是大写，为真返回 Ture，否则返回 False。</li>
+<li>str.istitle()      所有单词都是首字母大写，为真返回 Ture，否则返回 False。</li>
+<li>str.isspace()   所有字符都是空白字符，为真返回 Ture，否则返回 False。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>元素值可修改，可进行切片。</p>
+<ul>
+<li>创建</li>
+</ul>
+<p>创建一个带有初值的一维列表 l = [1]*100</p>
+<p>创建一个带有初值的二维列表 l = [[]<em>100]</em>100（浅拷贝，一个 改变则都改变）</p>
+<pre><code>    l = [[] for _ in range(100)]*100</code></pre><ul>
+<li>删除</li>
+</ul>
+<p>del list[num]</p>
+<ul>
+<li>查找最大值</li>
+</ul>
+<p>查找列表中字典某个键的最大值max(L,key=lambda x:x[key])</p>
+<ul>
+<li>内置方法：</li>
+</ul>
+<p>list.append(value)</p>
+<p>list.count(value)</p>
+<p>list.extend(seq)在列表末尾一次性添加多个值</p>
+<p>list.index(obj)找出第一个匹配的值的索引位置</p>
+<p>list.insert(index,obj)在index插入obj</p>
+<p>list.pop()一出列表中的最有一个元素，并返回该值</p>
+<p>list.remove(obj)移除列表中某个值的第一个匹配项</p>
+<p>list.reverse()反向列表中的元素</p>
+<p>list.sort(key,reverse)reverse=True降序，Flase升序（默认），key指定排序的元素，函数返回值</p>
+<p>list.clear()清空列表</p>
+<p>list.copy()复制列表</p>
+<hr>
+<h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><p>元素值不可修改，不能有重复值。</p>
+<ul>
+<li>创建</li>
+</ul>
+<p>创建一个空集合：set = set()</p>
+<p>创建一个有值的集合：set = {value},set = set(value)</p>
+<ul>
+<li>添加</li>
+</ul>
+<p>添加:set.add()</p>
+<p>set.update()</p>
+<ul>
+<li>访问</li>
+</ul>
+<p>set[index]</p>
+<ul>
+<li>删除</li>
+</ul>
+<p>set.remove(x) 若x没有则报错</p>
+<p>set.discard(x)不会报错</p>
+<p>set.pop() 随机删除并返回</p>
+<ul>
+<li>其他</li>
+</ul>
+<p>len()求元素个数</p>
+<p>set.clear()清空集合</p>
+<p>set.difference(set)返回两个集合的差集，返回一个新的集合</p>
+<p>set.difference_update(set)求两个集合的差集，没有返回值，直接在set1更新</p>
+<p>set.intersection(set)返回交集</p>
+<p>set.intersection(set)更新为交集</p>
+<p>。。。</p>
+<hr>
+<h2 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h2><p>键值对，python3.6以上，dict有记忆（输入顺序有记忆），键不可重复。</p>
+<ul>
+<li>创建</li>
+</ul>
+<p>创建一个空字典：dict = dict(), dict = {}</p>
+<p>创建一个带有值的字典：dict = {‘key’:value}, dict = dict(key=value)</p>
+<ul>
+<li>访问</li>
+</ul>
+<p>dict[‘key’],若不存在键key则报错</p>
+<p>dict.setdefault(‘key’,vlaue)没有访问到key则添加，值为value</p>
+<p>dict.get(‘key’,default)没有访问到key则返回default</p>
+<ul>
+<li>修改</li>
+</ul>
+<p>dict[‘key’] = newvalue</p>
+<ul>
+<li>删除</li>
+</ul>
+<p>del dict[‘key’]</p>
+<p>dict.clear()</p>
+<ul>
+<li>复制</li>
+</ul>
+<p>d2 = d1（浅拷贝）一个改变则另一个也改变</p>
+<p>d2 = d1.copy() （深拷贝）一个改变则另一个也改变</p>
+<ul>
+<li>增加</li>
+</ul>
+<p>dict.update(dict)</p>
+<ul>
+<li>内置方法：</li>
+</ul>
+<p>dict.clear():删除所有元素</p>
+<p>d2 = d1.cpoy():复制</p>
+<p>dict.items():返回可遍历的（键，值）元组数组</p>
+<p>dict.keys():返回键的一个迭代器，可使用list转换为列表</p>
+<p>dict.values():返回值的一个迭代器，可使用list转为列表</p>
+<p>dict.update(dict2):把dict2中的键/值对更新到dict中</p>
+<p>dict.pop(key):返回键key的值，并删除</p>
+<p>dict.popitem()随机返回并删除字典中的最后一对键和值</p>
+<hr>
+<h2 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h2><p>元素值不可修改，可进行切片，与字符串类似。</p>
+<ul>
+<li>创建</li>
+</ul>
+<p>一个空元组：tuple = (),tuple = tuple()</p>
+<p>创建一个带有值得元组：tuple = (1,)</p>
+<ul>
+<li>删除</li>
+</ul>
+<p>del tuple</p>
+<ul>
+<li>增加</li>
+</ul>
+<p>tuple += tuple</p>
+<ul>
+<li>访问</li>
+</ul>
+<p>tuple[index]</p>
+<hr>
+<h2 id="内置函数"><a href="#内置函数" class="headerlink" title="内置函数"></a>内置函数</h2><ul>
+<li>查看内置函数</li>
+</ul>
+<p>在idle中查看内置函数dir(<strong>builtins</strong>)</p>
+<ul>
+<li>常用内置函数<ul>
+<li>abs(x):返回x的绝对值</li>
+<li>divmod(x,y):整除求余，返回一个元组，（x//y，x%y)</li>
+<li>enumerate(seq):一般用于for循环遍历</li>
+<li>map函数:接收一个函数f和一个可迭代对象，并通过依次作用于迭代器的每一个元素</li>
+</ul>
+</li>
+</ul>
+<p>map(func, *iterables)</p>
+<ul>
+<li>round(x,[,n])四舍五入有（！！！.5有时进一有时不进）</li>
+<li>bin(x):返回x的二进制值</li>
+<li>zip():将多个迭代器对应组成一个元祖（并行）</li>
+<li>itertools.chain()：将多个迭代器合并成一个（串行）</li>
+<li>*zip() :解压</li>
+<li>cmp(x,y):比较x、y，python3中已移除，引入operator模块代替。</li>
+<li>sorted(iterable, cmp=None, key=None, reverse=False)</li>
+</ul>
+<p>iterable – 可迭代对象。</p>
+<p>cmp – 比较的函数，这个具有两个参数，参数的值都是从可迭代对象中取出，此函数必须遵守的规则为，大于则返回1，小于则返回-1，等于则返回0，cmp参数在python3中已废除。</p>
+<p>key – 主要是用来进行比较的元素，只有一个参数，具体的函数的参数就是取自于可迭代对象中，指定可迭代对象中的一个元素来进行排序。</p>
+<p>reverse – 排序规则，reverse = True 降序 ， reverse = False 升序（默认）</p>
+<pre><code class="python"># python3 中废除cmp参数
+import functools
+def cmp(a,b):
+  if a &gt; b :
+    return -1
+  elif a &lt; b :
+    return 1
+  else:
+    return 0
+
+nums = [1,2,3,4,5,6]
+sorted_nums = sorted(nums, key = functools.cmp_to_key(cmp))
+# key 也可使用匿名函数 lambda x: (x[0][1])</code></pre>
+<hr>
+<h2 id="collections模块"><a href="#collections模块" class="headerlink" title="collections模块"></a>collections模块</h2><p>collections中常用的有namedtuple，deque</p>
+<ul>
+<li>namedtuple</li>
+</ul>
+<p>namedtuple:用于定义数据类型</p>
+<p>e.g:Point=namedtuple(‘Point’,[‘x’,’y’])</p>
+<ul>
+<li>deque</li>
+</ul>
+<p>deque是为了高效实现插入和删除操作的双向列表，适合用于队列和栈,能用deque就不要用list（list速度较慢）</p>
+<p>具有的方法：</p>
+<p>append():</p>
+<p>appendleft():</p>
+<p>clear():</p>
+<p>copy()</p>
+<p>count()</p>
+<p>index()</p>
+<p>insert()</p>
+<p>maxlen()</p>
+<p>pop()</p>
+<p>popleft()</p>
+<p>remove()</p>
+<p>reverse()</p>
+<hr>
+<h2 id="math模块"><a href="#math模块" class="headerlink" title="math模块"></a>math模块</h2><p>math.pi:圆周率</p>
+<p>math.e:e的值</p>
+<p>math.sqrt(x):返回x的平方根</p>
+<p>math.fabs(x):返回绝对值</p>
+<p>math.factorial(x):返回x的阶乘</p>
+<p>math.fmod(x，y):返回x/y的余数（float）</p>
+<p>math.pow(x,y):返回x的y次方</p>
+<p>math.ldexp(x,i):返回x<em>(2*</em>i)</p>
+<p>math.modf(x):返回x的小数部分和整数部分的元组</p>
+<p>math.trunc(x):返回x的整数部分</p>
+<p>math.ceil(x):向上取整</p>
+<p>math.floor(x):向下取整</p>
+<p>math.radians(x):角度转为弧度</p>
+<p>math.degrees(x):弧度转角度</p>
+<p>math.gcd(x,y):返回x、y的最大公约数</p>
+<p>math.fsum(x):求和</p>
+<p>三角函数…</p>
+<hr>
+<h2 id="itertools-模块"><a href="#itertools-模块" class="headerlink" title="itertools 模块"></a>itertools 模块</h2><p>from itertools import combinations,permutations</p>
+<p>combinations：组合</p>
+<p>permutations：排列</p>
+<hr>
+<h2 id="datetime模块"><a href="#datetime模块" class="headerlink" title="datetime模块"></a>datetime模块</h2><p>datetime.date.today():获取当前日期</p>
+<p>datetime.date(year,month,day):返回一个datetime类</p>
+<p>date = today + datetime.timedelta(days=1):昨天的日期</p>
+<p>date.strftime(‘%Y%m%d’):格式化</p>
+<pre><code class="python">import datetime
+y = input().strip()
+d = int(input().strip())
+s = datetime.datetime.strptime(y + &#39;-1-1&#39;, &quot;%Y-%m-%d&quot;)
+ans = s + datetime.timedelta(days=d - 1)
+print(ans.month)
+print(ans.day)</code></pre>
+<hr>
+<h2 id="time模块"><a href="#time模块" class="headerlink" title="time模块"></a>time模块</h2><p>time.time()：获取当前时间戳</p>
+<hr>
+<h2 id="calendar模块"><a href="#calendar模块" class="headerlink" title="calendar模块"></a>calendar模块</h2><p>calendar.isleap(year):判断是否是闰年</p>
+<hr>
+<h2 id="heapq堆"><a href="#heapq堆" class="headerlink" title="heapq堆"></a>heapq堆</h2><p>堆是一种数据结构，它是一颗完全二叉树。最小堆则是在堆的基础增加了新的规则，它的根结点的值是最小的，而且它的任意结点的父结点的值都小于或者等于其左右结点的值。因为二进制堆可以使用有组织的列表或数组来表示，所以元素N的子元素位于位置2 * N + 1和2 * N + 2。这种布局使重新安排堆成为可能，因此在添加或删除项时不需要重新分配那么多内存.</p>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>字符&lt;=&gt;ASCII码</li>
+</ul>
+<p>ord(c)&lt;=&gt;chr(a)</p>
+<ul>
+<li>global 定义全局变量，定义全局变量不能赋初值</li>
+</ul>
+<p>函数内引用全局变量需要用global进行声明、</p>
+<hr>
+<h2 id="歪脑筋"><a href="#歪脑筋" class="headerlink" title="歪脑筋"></a>歪脑筋</h2><ul>
+<li>统计列表中出现次数最多的元素<pre><code class="python">max(set(test),key=test.count)</code></pre>
+</li>
+<li>支持链式比较<pre><code class="python">print(1&lt;3&lt;4) # True</code></pre>
+</li>
+<li>三元运算符<pre><code class="python">x = 10 if (y == 9) else 20</code></pre>
+</li>
+</ul>
+
             </div>
             <hr/>
 
@@ -517,7 +827,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shi-lt.cf/2020/06/04/PHP/">https://shi-lt.cf/2020/06/04/PHP/</a>
+                    <a href="https://shi-lt.cf/2020/06/30/python%E5%9F%BA%E7%A1%80/">https://shi-lt.cf/2020/06/30/python%E5%9F%BA%E7%A1%80/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -555,8 +865,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/PHP/">
-                                    <span class="chip bg-color">PHP</span>
+                                <a href="/tags/python/">
+                                    <span class="chip bg-color">python</span>
                                 </a>
                             
                         </div>
@@ -598,88 +908,37 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/06/04/Laravel%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/">
+                <a href="/2020/06/30/python%E5%9F%BA%E7%A1%80/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="laravel框架">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="python基础">
                         
-                        <span class="card-title">laravel框架</span>
+                        <span class="card-title">python基础</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            创建项目通过composer创建
-composer create-project --prefer-dist laravel/laravel blog 5.4.*
-php artisan 命令php artisan route:list #
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/laravel/">
-                        <span class="chip bg-color">laravel</span>
-                    </a>
-                    
-                    <a href="/tags/PHP/">
-                        <span class="chip bg-color">PHP</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/06/04/laravel%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="laravel项目配置">
-                        
-                        <span class="card-title">laravel项目配置</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            项目配置1、文件权限设置（若无权访问则需要设置）
- chmod -R 0777 storage
+                            输入输出
+输入
+input()
+sys.stdin.readline() # 带有换行符‘/n’
+快速读入的一种方法：*(open(0))，无缓冲读取整个文件，返回一个迭代器。（在屏幕中输入需要按Ctrl+Z结束输入）
 
- chmod -R 0777 bootstrap
 
- chmod -R 0777 public 2、第三方插件安装（在项目根目录下，生成ven
+输出
+print
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-30
                             </span>
                         <span class="publish-author">
                             
@@ -693,15 +952,88 @@ php artisan 命令php artisan route:list #
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/laravel/">
-                        <span class="chip bg-color">laravel</span>
+                    <a href="/tags/python/">
+                        <span class="chip bg-color">python</span>
                     </a>
                     
-                    <a href="/tags/PHP/">
-                        <span class="chip bg-color">PHP</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/06/14/Markdown/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Markdown基本使用">
+                        
+                        <span class="card-title">Markdown基本使用</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一级标题二级标题三级标题四级标题五级标题六级标题
+字体
+
+斜体
+斜体
+粗体
+粗体
+粗斜体
+粗斜体
+
+分隔线
+
+使用三个以上的的”*“、”-“、”_”
+
+删除线
+
+文字两端加上两个’~~’
+
+下划线
+
+使用”“
+
+脚注^1
+
+列表
+
+
+*无序
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-14
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/markdown/" class="post-category">
+                                    markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">基础</span>
                     </a>
                     
                 </div>

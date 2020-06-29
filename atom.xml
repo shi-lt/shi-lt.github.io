@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shi-lt.cf/"/>
-  <updated>2020-06-07T06:40:30.196Z</updated>
+  <updated>2020-06-29T15:04:36.135Z</updated>
   <id>https://shi-lt.cf/</id>
   
   <author>
@@ -17,15 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python基础</title>
+    <link href="https://shi-lt.cf/2020/06/30/python%E5%9F%BA%E7%A1%80/"/>
+    <id>https://shi-lt.cf/2020/06/30/python%E5%9F%BA%E7%A1%80/</id>
+    <published>2020-06-30T12:29:21.000Z</published>
+    <updated>2020-06-29T15:04:36.135Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;输入输出&quot;&gt;&lt;a href=&quot;#输入输出&quot; class=&quot;headerlink&quot; title=&quot;输入输出&quot;&gt;&lt;/a&gt;输入输出&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;输入&lt;ul&gt;
+&lt;li&gt;input()&lt;/li&gt;
+&lt;li&gt;sys.stdin.readline() #
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://shi-lt.cf/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="python" scheme="https://shi-lt.cf/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown基本使用</title>
     <link href="https://shi-lt.cf/2020/06/14/Markdown/"/>
     <id>https://shi-lt.cf/2020/06/14/Markdown/</id>
     <published>2020-06-14T15:38:23.000Z</published>
-    <updated>2020-06-07T06:40:30.196Z</updated>
+    <updated>2020-06-29T14:27:29.806Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;
+      
+      
+        
+        
+          &lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     
@@ -33,7 +69,7 @@
       <category term="markdown" scheme="https://shi-lt.cf/categories/markdown/"/>
     
     
-      <category term="使用" scheme="https://shi-lt.cf/tags/%E4%BD%BF%E7%94%A8/"/>
+      <category term="基础" scheme="https://shi-lt.cf/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
@@ -42,12 +78,17 @@
     <link href="https://shi-lt.cf/2020/06/06/miniprogram/"/>
     <id>https://shi-lt.cf/2020/06/06/miniprogram/</id>
     <published>2020-06-06T12:29:21.000Z</published>
-    <updated>2020-06-07T06:43:34.935Z</updated>
+    <updated>2020-06-29T15:06:29.213Z</updated>
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;h1 id=&quot;微信小程序&quot;&gt;&lt;a href=&quot;#微信小程序&quot; class=&quot;headerlink&quot; title=&quot;微信小程序&quot;&gt;&lt;/a&gt;微信小程序&lt;/h1&gt;
+      
+      
+        
+        
+          &lt;h1 id=&quot;微信小程序&quot;&gt;&lt;a href=&quot;#微信小程序&quot; class=&quot;headerlink&quot; title=&quot;微信小程序&quot;&gt;&lt;/a&gt;微信小程序&lt;/h1&gt;&lt;p&gt;| ** 结构 **   | ** 传统web    **   | ** 微信小程序 **  
+        
+      
     
     </summary>
     
@@ -61,10 +102,10 @@
   
   <entry>
     <title>Welcome to my blog</title>
-    <link href="https://shi-lt.cf/2020/06/06/hello/"/>
-    <id>https://shi-lt.cf/2020/06/06/hello/</id>
+    <link href="https://shi-lt.cf/2020/06/06/welcome/"/>
+    <id>https://shi-lt.cf/2020/06/06/welcome/</id>
     <published>2020-06-05T16:00:00.000Z</published>
-    <updated>2020-06-08T01:16:55.266Z</updated>
+    <updated>2020-06-29T14:26:50.677Z</updated>
     
     <summary type="html">
     
@@ -72,8 +113,7 @@
       
         
         
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;Hello-Welcome-to-my-blog&quot;&gt;&lt;a href=&quot;#Hello-Welcome-to-my-blog&quot; class=&quot;headerlink&quot; title=&quot;Hello, Welcome to my
+          &lt;h1 id=&quot;Welcome-to-my-blog&quot;&gt;&lt;a href=&quot;#Welcome-to-my-blog&quot; class=&quot;headerlink&quot; title=&quot;Welcome to my blog.&quot;&gt;&lt;/a&gt;Welcome to my blog.&lt;/h1&gt;&lt;h1
         
       
     
@@ -88,61 +128,51 @@
   </entry>
   
   <entry>
-    <title>English Word</title>
-    <link href="https://shi-lt.cf/2020/06/04/English/"/>
-    <id>https://shi-lt.cf/2020/06/04/English/</id>
+    <title>laravel框架</title>
+    <link href="https://shi-lt.cf/2020/06/04/Laravel%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://shi-lt.cf/2020/06/04/Laravel%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-06-04T12:29:21.000Z</published>
-    <updated>2020-06-07T06:42:21.018Z</updated>
+    <updated>2020-06-29T14:27:46.419Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;英语&quot;&gt;&lt;a href=&quot;#英语&quot; class=&quot;headerlink&quot; title=&quot;英语&quot;&gt;&lt;/a&gt;英语&lt;/h1&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建项目&quot;&gt;&lt;a href=&quot;#创建项目&quot; class=&quot;headerlink&quot; title=&quot;创建项目&quot;&gt;&lt;/a&gt;创建项目&lt;/h2&gt;&lt;p&gt;通过composer创建&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;composer
+        
+      
     
     </summary>
     
     
       <category term="学习" scheme="https://shi-lt.cf/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    
-      <category term="English" scheme="https://shi-lt.cf/tags/English/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ecshop</title>
-    <link href="https://shi-lt.cf/2020/06/04/ecshop/"/>
-    <id>https://shi-lt.cf/2020/06/04/ecshop/</id>
-    <published>2020-06-04T12:29:21.000Z</published>
-    <updated>2020-06-07T06:42:39.367Z</updated>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;h2 id=&quot;app下的目录结构&quot;&gt;&lt;a href=&quot;#app下的目录结构&quot; class=&quot;headerlink&quot; title=&quot;app下的目录结构&quot;&gt;&lt;/a&gt;app下的目录结构&lt;/h2&gt;
-    
-    </summary>
-    
-    
-      <category term="札记" scheme="https://shi-lt.cf/categories/%E6%9C%AD%E8%AE%B0/"/>
-    
-    
-      <category term="ecshop" scheme="https://shi-lt.cf/tags/ecshop/"/>
     
       <category term="laravel" scheme="https://shi-lt.cf/tags/laravel/"/>
     
+      <category term="PHP" scheme="https://shi-lt.cf/tags/PHP/"/>
+    
   </entry>
   
   <entry>
-    <title>php</title>
-    <link href="https://shi-lt.cf/2020/06/04/php/"/>
-    <id>https://shi-lt.cf/2020/06/04/php/</id>
+    <title>PHP</title>
+    <link href="https://shi-lt.cf/2020/06/04/PHP/"/>
+    <id>https://shi-lt.cf/2020/06/04/PHP/</id>
     <published>2020-06-04T12:29:21.000Z</published>
-    <updated>2020-06-07T06:41:33.404Z</updated>
+    <updated>2020-06-29T14:27:19.664Z</updated>
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;h2 id=&quot;类中的构造方法&quot;&gt;&lt;a href=&quot;#类中的构造方法&quot; class=&quot;headerlink&quot; title=&quot;类中的构造方法&quot;&gt;&lt;/a&gt;类中的构造方法&lt;/h2&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;类中的构造方法&quot;&gt;&lt;a href=&quot;#类中的构造方法&quot; class=&quot;headerlink&quot; title=&quot;类中的构造方法&quot;&gt;&lt;/a&gt;类中的构造方法&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;php&quot;&gt;`function __construct(){  ...
+        
+      
     
     </summary>
     
@@ -150,7 +180,68 @@
       <category term="学习" scheme="https://shi-lt.cf/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="php" scheme="https://shi-lt.cf/tags/php/"/>
+      <category term="PHP" scheme="https://shi-lt.cf/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>laravel项目配置</title>
+    <link href="https://shi-lt.cf/2020/06/04/laravel%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/"/>
+    <id>https://shi-lt.cf/2020/06/04/laravel%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-06-04T12:29:21.000Z</published>
+    <updated>2020-06-29T14:27:38.712Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;项目配置&quot;&gt;&lt;a href=&quot;#项目配置&quot; class=&quot;headerlink&quot; title=&quot;项目配置&quot;&gt;&lt;/a&gt;项目配置&lt;/h2&gt;&lt;p&gt;1、文件权限设置（若无权访问则需要设置）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; chmod -R 0777 storage
+
+
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://shi-lt.cf/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="laravel" scheme="https://shi-lt.cf/tags/laravel/"/>
+    
+      <category term="PHP" scheme="https://shi-lt.cf/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>laravel框架环境搭建</title>
+    <link href="https://shi-lt.cf/2020/06/04/PHP%20laravel%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://shi-lt.cf/2020/06/04/PHP%20laravel%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <published>2020-06-04T12:29:21.000Z</published>
+    <updated>2020-06-29T14:27:15.891Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;中文手册链接&quot;&gt;&lt;a href=&quot;#中文手册链接&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://shi-lt.cf/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="laravel" scheme="https://shi-lt.cf/tags/laravel/"/>
+    
+      <category term="PHP" scheme="https://shi-lt.cf/tags/PHP/"/>
     
   </entry>
   
@@ -159,12 +250,17 @@
     <link href="https://shi-lt.cf/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://shi-lt.cf/2020/05/06/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2020-05-05T23:28:19.000Z</published>
-    <updated>2020-06-07T06:42:01.971Z</updated>
+    <updated>2020-06-29T14:27:53.840Z</updated>
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;h1 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h1&gt;
+      
+      
+        
+        
+          &lt;h1 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h1&gt;&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Welcome to my blog, shi-lt">
+    <meta name="keywords" content="laravel项目配置, shi-lt">
     <meta name="description" content="一觉游仙好梦，任它竹冷松寒。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Welcome to my blog | 个人博客</title>
+    <title>laravel项目配置 | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Welcome to my blog</h1>
+                    <h1 class="description center-align post-title">laravel项目配置</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/welcome/">
-                                <span class="chip bg-color">welcome</span>
+                            <a href="/tags/laravel/">
+                                <span class="chip bg-color">laravel</span>
+                            </a>
+                        
+                            <a href="/tags/PHP/">
+                                <span class="chip bg-color">PHP</span>
                             </a>
                         
                     </div>
@@ -443,8 +447,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/welcome/" class="post-category">
-                                welcome
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
                             </a>
                         
                     </div>
@@ -456,21 +460,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-06
+                    2020-06-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-08
+                    2020-06-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    13
+                    146
                 </div>
                 
 
@@ -487,9 +491,17 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <a id="more"></a>
-<h1 id="Hello-Welcome-to-my-blog"><a href="#Hello-Welcome-to-my-blog" class="headerlink" title="Hello, Welcome to my blog."></a>Hello, Welcome to my blog.</h1><h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客."></a>欢迎来到我的博客.</h1><p><img src="hello.png" alt=""></p>
+                <h2 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h2><p>1、文件权限设置（若无权访问则需要设置）</p>
+<pre><code> chmod -R 0777 storage
 
+ chmod -R 0777 bootstrap
+
+ chmod -R 0777 public</code></pre><p> 2、第三方插件安装（在项目根目录下，生成vendor文件夹及下载第三方插件）</p>
+<pre><code> composer install</code></pre><p>3、创建自动加载（设置自动加载）</p>
+<pre><code> composer dump-autoload</code></pre><p>4、为项目创建一个key</p>
+<pre><code> php artisan key:generate</code></pre><p>5、为项目的仓库创建一个链接（在项目根目录下执行，）</p>
+<pre><code> php artisan storage:link</code></pre><p>6、静态资源发布（将第三方插件中的静态文件发布到public目录下）</p>
+<pre><code> php artisan vendor:publish --all</code></pre>
             </div>
             <hr/>
 
@@ -514,7 +526,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shi-lt.cf/2020/06/06/hello/">https://shi-lt.cf/2020/06/06/hello/</a>
+                    <a href="https://shi-lt.cf/2020/06/04/laravel%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/">https://shi-lt.cf/2020/06/04/laravel%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -552,8 +564,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/welcome/">
-                                    <span class="chip bg-color">welcome</span>
+                                <a href="/tags/laravel/">
+                                    <span class="chip bg-color">laravel</span>
+                                </a>
+                            
+                                <a href="/tags/PHP/">
+                                    <span class="chip bg-color">PHP</span>
                                 </a>
                             
                         </div>
@@ -599,57 +615,27 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/06/miniprogram/">
+                <a href="/2020/06/04/PHP/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="miniprogram">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="PHP">
                         
-                        <span class="card-title">miniprogram</span>
+                        <span class="card-title">PHP</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-微信小程序
-
-
-
-
-结构
-传统web
-微信小程序
-
-
-
-结构
-HTML
-WXML
-
-
-样式
-CSS
-WXSS
-
-
-逻辑
-Javascript
-Javascript
-
-
-配置
-无
-json
-
-
-基本目录pages // 入口文件
-utils
+                            类中的构造方法`function __construct(){  ...  }`
+判断是否为数字或数字字符串bool is_numeric ($var)
+匿名函数(func = )function($name){
+  printf($nam
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
                         </span>
                         <span class="publish-author">
                             
@@ -666,8 +652,8 @@ utils
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/miniprogram/">
-                        <span class="chip bg-color">miniprogram</span>
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
                 </div>
@@ -681,52 +667,21 @@ utils
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/04/English/">
+                <a href="/2020/06/04/PHP%20laravel%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="English Word">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="laravel框架环境搭建">
                         
-                        <span class="card-title">English Word</span>
+                        <span class="card-title">laravel框架环境搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            英语
+                            中文手册链接1、[https://learnku.com/docs/laravel/5.5](https://learnku.com/docs/laravel/5.5)
 
-
-
-
-
-序号
-单词
-词义
-
-
-
-1
-point
-点，观点，论点，见解
-
-
-2
-component
-组成部分；成分；部件；成分的；组成的；合成的
-
-
-3
-provider
-供应商，供应者
-
-
-4
-container
-容器
-
-
-5
-se
+2、[https://xueyuanjun.com/post/762
                         
                     </div>
                     <div class="publish-info">
@@ -748,8 +703,12 @@ se
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/English/">
-                        <span class="chip bg-color">English</span>
+                    <a href="/tags/laravel/">
+                        <span class="chip bg-color">laravel</span>
+                    </a>
+                    
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
                 </div>
@@ -939,7 +898,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.3k</span>&nbsp;字
+                class="white-color">4.8k</span>&nbsp;字
             
             
             

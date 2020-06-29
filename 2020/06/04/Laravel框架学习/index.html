@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="ecshop, shi-lt">
+    <meta name="keywords" content="laravel框架, shi-lt">
     <meta name="description" content="一觉游仙好梦，任它竹冷松寒。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>ecshop | 个人博客</title>
+    <title>laravel框架 | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">ecshop</h1>
+                    <h1 class="description center-align post-title">laravel框架</h1>
                 </div>
             </div>
         </div>
@@ -431,12 +431,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/ecshop/">
-                                <span class="chip bg-color">ecshop</span>
-                            </a>
-                        
                             <a href="/tags/laravel/">
                                 <span class="chip bg-color">laravel</span>
+                            </a>
+                        
+                            <a href="/tags/PHP/">
+                                <span class="chip bg-color">PHP</span>
                             </a>
                         
                     </div>
@@ -447,8 +447,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%9C%AD%E8%AE%B0/" class="post-category">
-                                札记
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
                             </a>
                         
                     </div>
@@ -467,21 +467,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-07
+                    2020-06-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    91
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -491,45 +491,132 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<h2 id="app下的目录结构"><a href="#app下的目录结构" class="headerlink" title="app下的目录结构"></a>app下的目录结构</h2><a id="more"></a>
-
+                <h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>通过composer创建</p>
+<pre><code class="shell">composer create-project --prefer-dist laravel/laravel blog 5.4.*</code></pre>
+<h2 id="php-artisan-命令"><a href="#php-artisan-命令" class="headerlink" title="php artisan 命令"></a>php artisan 命令</h2><p>php artisan route:list # 查看路由</p>
+<p>php artisan make:controller 路径/控制名 # 生成控制器文件</p>
+<p>php artisan make:其他操作</p>
+<h2 id="路由"><a href="#路由" class="headerlink" title="路由"></a>路由</h2><ol>
+<li>在routes目录中的web.php设置</li>
+<li>路由定义方式</li>
+</ol>
+<p>Route::请求方式(“路由表达式”,匿名函数或控制响应的方法)</p>
+<ol>
+<li><p>常用请求方式：</p>
+<ol>
+<li>get(“路由表达式”,匿名函数或控制响应的方法)</li>
+<li>post(“路由表达式”,匿名函数或控制响应的方法)</li>
+<li>any(“路由表达式”,匿名函数或控制响应的方法)</li>
+<li>match([“请求类型”，…],”路由表达式”,匿名函数或控制响应的方法)</li>
+</ol>
+</li>
+<li><p>路由参数(不推荐，可通过url?param传参数)</p>
 <ul>
-<li><p>Admin：后台登陆模块，使用第三方库laravel-admin生成</p>
+<li>必选参数{param}</li>
+<li>非必选参数{param?}</li>
+</ul>
+</li>
+<li><p>路由别名</p>
 <ul>
-<li>routes.php路由设置</li>
-<li>bootstrap.php</li>
-<li>Controllers<ul>
-<li>HomeController.php</li>
-</ul>
+<li>定义<pre><code class="plain">Route::get( , )-&gt;name(&quot;别名&quot;);</code></pre>
+</li>
+<li>可通过获取route(“别名”)<pre><code class="plain">php artisan route:list # 查看应用路由</code></pre>
 </li>
 </ul>
 </li>
-<li><p>EC.Open.Backend：后台代码，包含模型、控制器、监听、仓库（Repository）、视图、静态资源</p>
+<li><p>路由群组</p>
 <ul>
-<li>会员模块<ul>
-<li>resources<ul>
-<li>assets</li>
-<li>views</li>
-</ul>
-</li>
-<li>src<ul>
-<li>Http</li>
-<li>Models</li>
-<li>Providers</li>
-<li>Respository</li>
-<li>Seeds</li>
-</ul>
+<li>定义<pre><code class="plain">Route::group(公共属性数组[前缀、命名空间、中间件等],回调函数)</code></pre>
 </li>
 </ul>
 </li>
-<li>商城模块</li>
-<li>分销模块</li>
+<li><p>控制器路由</p>
+<p>Route::请求方法(路由表达式，“控制器名@方法”)</p>
+</li>
+</ol>
+<h2 id="控制器接收用户输入"><a href="#控制器接收用户输入" class="headerlink" title="控制器接收用户输入"></a>控制器接收用户输入</h2><ul>
+<li><p>使用门面input</p>
+</li>
+<li><p>input::get()</p>
+</li>
+<li><p>input::all()</p>
+</li>
+<li><p>input::only()</p>
+</li>
+<li><p>input::except()</p>
+</li>
+<li><p>input::has</p>
+<p>  以上均可以获取get、post方法的信息</p>
+</li>
+<li><p>可在config/app.php的aliases数组中定义长串字符的别名</p>
+</li>
+<li><p>如命名空间</p>
+<h2 id="dd（）：dump-die-用于调试输出"><a href="#dd（）：dump-die-用于调试输出" class="headerlink" title="dd（）：dump+die 用于调试输出"></a>dd（）：dump+die 用于调试输出</h2></li>
+</ul>
+<h2 id="“-“-与-“-”-在某种情况下等效-例如查找视图文件view-“home-index”-view-“home-index”"><a href="#“-“-与-“-”-在某种情况下等效-例如查找视图文件view-“home-index”-view-“home-index”" class="headerlink" title="“/“ 与 “.” 在某种情况下等效,例如查找视图文件view(“home.index”) == view(“home/index”)"></a>“/“ 与 “.” 在某种情况下等效,例如查找视图文件view(“home.index”) == view(“home/index”)</h2><h2 id="视图文件的命名于渲染"><a href="#视图文件的命名于渲染" class="headerlink" title="视图文件的命名于渲染"></a>视图文件的命名于渲染</h2><ul>
+<li>文件名习惯小写</li>
+<li>文件名单后缀是.blade.php,可以直接使用标签语法（.php不可使用，.balde.php优先级高于.php）,也可使用php原生语法<h2 id="campact-函数打包数组，php内置函数"><a href="#campact-函数打包数组，php内置函数" class="headerlink" title="campact()函数打包数组，php内置函数"></a>campact()函数打包数组，php内置函数</h2></li>
+</ul>
+<h2 id="模板中直接使用函数"><a href="#模板中直接使用函数" class="headerlink" title="模板中直接使用函数"></a>模板中直接使用函数</h2><pre><code class="plain">{{函数名(参数1，参数2...)}},php内置函数或laravel框架的函数</code></pre>
+<h2 id="循环与选择"><a href="#循环与选择" class="headerlink" title="循环与选择"></a>循环与选择</h2><ul>
+<li><p>循环</p>
+<pre><code class="plain">@foreach($data $k =&gt; $v)
+@endforeach</code></pre>
+</li>
+<li><p>选择</p>
+<pre><code class="php">@if()
+@elseif()
+@endif</code></pre>
+<h2 id="模板继承和模板包含"><a href="#模板继承和模板包含" class="headerlink" title="模板继承和模板包含"></a>模板继承和模板包含</h2></li>
+<li><p>继承</p>
+<pre><code class="php+HTML">父:@yield()
+子：@extends(&#39;模板名&#39;)
+@section() 绑定区块</code></pre>
+<p>@endsection()</p>
+<h2 id="模板引入外部静态文件"><a href="#模板引入外部静态文件" class="headerlink" title="模板引入外部静态文件"></a>模板引入外部静态文件</h2></li>
+<li><p>继承</p>
+<pre><code class="html">父:@yield()
+子：@extends(&#39;模板名&#39;)
+@section() 绑定区块</code></pre>
+<p>@endsection()</p>
+<h2 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h2><p>html的方式</p>
+</li>
+<li><p>使用laravel封装的asset函数</p>
+<h2 id="CSRF攻击"><a href="#CSRF攻击" class="headerlink" title="CSRF攻击"></a>CSRF攻击</h2></li>
+<li><p>跨站请求伪造</p>
+</li>
+<li><p>全局函数csrf_token()获取Token值</p>
+</li>
+<li><p>html中加入代码</p>
+<pre><code class="php">&lt;input type = &quot;hidden&quot; name = &quot;_token&quot; value = &quot;&lt;?php echo csrf_token(); ?&gt;&quot;
+// 等价于
+{{csrf_field()}}
+// ajax提交使用csrf_token()</code></pre>
+</li>
+<li><p>laravel 默认开启csrf验证</p>
+</li>
+<li><p>排除某些路由进行csrf验证</p>
+<p>在app/Http/Middleware/VerifyCsrfToken.php中修改</p>
+</li>
+</ul>
+<h2 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h2><p><img src="https://images-cdn.shimo.im/HckGLPsQFao8Emob/pic_imp_error.png!thumbnail" alt="图片"></p>
+<h2 id="seed（简而言之，将测试数据保存到数据库）"><a href="#seed（简而言之，将测试数据保存到数据库）" class="headerlink" title="seed（简而言之，将测试数据保存到数据库）"></a>seed（简而言之，将测试数据保存到数据库）</h2><ul>
+<li>在laravel的中文文档是这样写的：Laravel 包含一个填充类可以为你的数据库填充测试数据。所有的填充类都放在 database/seeds 目录下。你可以随意为填充类命名， 但是更建议您遵守类似 UsersTableSeeder 的命名规范。通常， Laravel 默认定义了一个DatabaseSeeder 类。所以，seed的作用主要是用来填充数据库中的数据。在实际开发过程中，我们通常需要加入一些测试数据，或者保存数据库中的初始数据，防止在开发过程中遇到的数据丢失，加的话还是挺麻烦的。当然，也可以直接导出数据库的表结构和表数据。</li>
+<li>测试数据较多是可用模型工厂<h2 id="provider"><a href="#provider" class="headerlink" title="provider"></a>provider</h2></li>
+</ul>
+<p>provider是laravel程序的核心所在，包括你自己的应用程序，以及所有的 Laravel 核心服务，都是通过服务提供者启动的。一般而言，我们指的是 <strong>注册</strong> 事物，包括注册服务容器绑定、事件侦听器、中间件，甚至路由。服务提供者是设置你的应用程序的中心所在。</p>
+<h2 id="repository"><a href="#repository" class="headerlink" title="repository"></a>repository</h2><ul>
+<li>repository是数据库抽象层，目的是将应用的数据库操作和核心的业务逻辑分开，保证controller的精致。</li>
+<li>repository提供criteria（标准）和transformer（变压器）来解卦数据库的查询和查询结果的展示，使得各部分分离开来，解开耦合。同时repository接管model层，使得model层专注于数据模型本身的定义，例如：relationship，fillable（可填充）等<ul>
+<li>ceiteria<ul>
+<li>所有的Criteria都要实现Criteria接口中的apply方法。</li>
 </ul>
 </li>
-<li><p>component：存放部分模型、仓库（Respository）</p>
+<li>transformer<h2 id="事件（event）"><a href="#事件（event）" class="headerlink" title="事件（event）"></a>事件（event）</h2></li>
+</ul>
 </li>
 </ul>
+<p>event与监听它的的lisner类绑定</p>
 
             </div>
             <hr/>
@@ -555,7 +642,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shi-lt.cf/2020/06/04/ecshop/">https://shi-lt.cf/2020/06/04/ecshop/</a>
+                    <a href="https://shi-lt.cf/2020/06/04/Laravel%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/">https://shi-lt.cf/2020/06/04/Laravel%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -593,12 +680,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/ecshop/">
-                                    <span class="chip bg-color">ecshop</span>
-                                </a>
-                            
                                 <a href="/tags/laravel/">
                                     <span class="chip bg-color">laravel</span>
+                                </a>
+                            
+                                <a href="/tags/PHP/">
+                                    <span class="chip bg-color">PHP</span>
                                 </a>
                             
                         </div>
@@ -644,64 +731,32 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/04/English/">
+                <a href="/2020/06/06/welcome/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="English Word">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Welcome to my blog">
                         
-                        <span class="card-title">English Word</span>
+                        <span class="card-title">Welcome to my blog</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            英语
+                            Welcome to my blog.欢迎来到我的博客.
 
-
-
-
-
-序号
-单词
-词义
-
-
-
-1
-point
-点，观点，论点，见解
-
-
-2
-component
-组成部分；成分；部件；成分的；组成的；合成的
-
-
-3
-provider
-供应商，供应者
-
-
-4
-container
-容器
-
-
-5
-se
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
+                            <a href="/categories/welcome/" class="post-category">
+                                    welcome
                                 </a>
                             
                             
@@ -711,8 +766,8 @@ se
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/English/">
-                        <span class="chip bg-color">English</span>
+                    <a href="/tags/welcome/">
+                        <span class="chip bg-color">welcome</span>
                     </a>
                     
                 </div>
@@ -726,28 +781,22 @@ se
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/04/php/">
+                <a href="/2020/06/04/PHP/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="php">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="PHP">
                         
-                        <span class="card-title">php</span>
+                        <span class="card-title">PHP</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-类中的构造方法
-
-
-function __construct(){
-...
-}
-
-
-
+                            类中的构造方法`function __construct(){  ...  }`
+判断是否为数字或数字字符串bool is_numeric ($var)
+匿名函数(func = )function($name){
+  printf($nam
                         
                     </div>
                     <div class="publish-info">
@@ -769,8 +818,8 @@ function __construct(){
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/php/">
-                        <span class="chip bg-color">php</span>
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
                 </div>
@@ -960,7 +1009,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.3k</span>&nbsp;字
+                class="white-color">4.8k</span>&nbsp;字
             
             
             
